@@ -3,17 +3,17 @@
 d3.json("/data/understudied.json", function(data){
 	var data = data.nodes;
 	var links = data.links;
-	
+
 	//var links = network.links;
 	//console.log(linkdata);
-    
+
 	//console.log(data);
 var width = window.innerWidth,
     height = 2000;
 
 var fill = d3.scale.category10();
 
-var nodes = [], labels = [], 
+var nodes = [], labels = [],
 // links=[
 // 	// { "source":1,"target":2,"weight":1},
 // // 	{ "source":1,"target":30,"weight":100}
@@ -27,7 +27,7 @@ var svg = d3.select("body").append("svg")
     .attr("width", "100%")
     .attr("height", height)
     //.attr("domflag", '');
-	
+
 
 	//console.log(link);
 
@@ -40,7 +40,7 @@ var force = d3.layout.force()
     .friction(0.8)
     .size([width, height])
     .on("tick", tick)
-	
+
 
 //var node = svg.selectAll("circle");
 var node = svg.selectAll("g");
@@ -61,8 +61,8 @@ function tick(e) {
     o.y += (foci[o.group-1].y - o.y) * k;
     o.x += (foci[o.group-1].x - o.x) * k;
   });
-  
-  
+
+
   node.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
 
 }
@@ -87,8 +87,8 @@ var timer = setInterval(function(){
          sel.moveToFront();
       })
       .call(force.drag);
-	  
-	
+
+
 
   n.append("circle")
       .attr("r",  function(d) { return 50; })
@@ -102,7 +102,7 @@ var timer = setInterval(function(){
           return Math.min(2 * d.r, (2 * d.r - 8) / this.getComputedTextLength() * 1) + "px";
        })
       .attr("dy", ".35em")
-	   
+
 
 
   counter++;
@@ -125,6 +125,3 @@ function resize() {
 
 d3.select(window).on('resize', resize);
 })
-
-
-
