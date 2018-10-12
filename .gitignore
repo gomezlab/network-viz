@@ -42,3 +42,6 @@ Thumbs.db
 data/.DS_Store
 src/.DS_Store
 src/HTML/.DS_Store
+.DS_Store
+src/.DS_Store
+src/HTML/.DS_Store
