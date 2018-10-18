@@ -1,0 +1,33 @@
+{ 
+ "nodes": [
+{"id":"RET", "group": 1, "dark": 0},
+{"id":"FAK1", "group": 2, "dark": 0},
+{"id":"MK01", "group": 2, "dark": 0},
+{"id":"MK08", "group": 2, "dark": 0},
+{"id":"MK14", "group": 2, "dark": 0},
+{"id":"MK03", "group": 2, "dark": 0},
+{"id":"SRC", "group": 2, "dark": 0},
+{"id":"KPYM", "group": 2, "dark": 0},
+{"id":"LRRK1", "group": 2, "dark": 0},
+{"id":"EGFR", "group": 2, "dark": 0},
+{"id":"KAPCA", "group": 2, "dark": 0},
+{"id":"KPCA", "group": 2, "dark": 0},
+{"id":"PDPK1", "group": 2, "dark": 0},
+{"id":"MK09", "group": 2, "dark": 0},
+{"id":"AKT1", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"RET","target":"FAK1","value":1},
+{ "source":"RET","target":"MK01","value":1},
+{ "source":"RET","target":"MK08","value":1},
+{ "source":"RET","target":"MK14","value":1},
+{ "source":"RET","target":"MK03","value":1},
+{ "source":"SRC","target":"RET","value":1},
+{ "source":"KPYM","target":"RET","value":1},
+{ "source":"LRRK1","target":"RET","value":1},
+{ "source":"EGFR","target":"RET","value":1},
+{ "source":"KAPCA","target":"RET","value":1},
+{ "source":"KPCA","target":"RET","value":1},
+{ "source":"RET","target":"PDPK1","value":1},
+{ "source":"RET","target":"MK09","value":1},
+{ "source":"RET","target":"AKT1","value":1}] 
+ }

@@ -1,0 +1,7 @@
+{ 
+ "nodes": [
+{"id":"MAK", "group": 1, "dark": 0},
+{"id":"CDK20", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"CDK20","target":"MAK","value":1}] 
+ }

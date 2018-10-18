@@ -1,0 +1,9 @@
+{ 
+ "nodes": [
+{"id":"GRK7", "group": 1, "dark": 0},
+{"id":"KAPCA", "group": 2, "dark": 0},
+{"id":"KPCA", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"KAPCA","target":"GRK7","value":1},
+{ "source":"KPCA","target":"GRK7","value":1}] 
+ }

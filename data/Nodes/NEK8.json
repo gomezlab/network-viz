@@ -1,0 +1,13 @@
+{ 
+ "nodes": [
+{"id":"NEK8", "group": 1, "dark": 0},
+{"id":"ACVR1", "group": 2, "dark": 0},
+{"id":"TGFR1", "group": 2, "dark": 0},
+{"id":"ABL1", "group": 2, "dark": 0},
+{"id":"FYN", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"ACVR1","target":"NEK8","value":1},
+{ "source":"NEK8","target":"TGFR1","value":1},
+{ "source":"NEK8","target":"ABL1","value":1},
+{ "source":"FYN","target":"NEK8","value":1}] 
+ }

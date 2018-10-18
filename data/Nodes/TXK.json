@@ -1,0 +1,19 @@
+{ 
+ "nodes": [
+{"id":"TXK", "group": 1, "dark": 0},
+{"id":"SRC", "group": 2, "dark": 0},
+{"id":"FYN", "group": 2, "dark": 0},
+{"id":"ERBB2", "group": 2, "dark": 0},
+{"id":"ERBB3", "group": 2, "dark": 0},
+{"id":"KIT", "group": 2, "dark": 0},
+{"id":"MET", "group": 2, "dark": 0},
+{"id":"PK3CA", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"SRC","target":"TXK","value":1},
+{ "source":"FYN","target":"TXK","value":1},
+{ "source":"TXK","target":"ERBB2","value":1},
+{ "source":"TXK","target":"ERBB3","value":1},
+{ "source":"TXK","target":"KIT","value":1},
+{ "source":"TXK","target":"MET","value":1},
+{ "source":"PK3CA","target":"TXK","value":1}] 
+ }

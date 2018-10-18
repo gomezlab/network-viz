@@ -1,0 +1,27 @@
+{ 
+ "nodes": [
+{"id":"TRIO", "group": 1, "dark": 0},
+{"id":"FAK1", "group": 2, "dark": 0},
+{"id":"KALRN", "group": 2, "dark": 0},
+{"id":"ROCK2", "group": 2, "dark": 0},
+{"id":"PAK3", "group": 2, "dark": 0},
+{"id":"FYN", "group": 2, "dark": 0},
+{"id":"SRC", "group": 2, "dark": 0},
+{"id":"PAK1", "group": 2, "dark": 0},
+{"id":"PAK2", "group": 2, "dark": 0},
+{"id":"ROCK1", "group": 2, "dark": 0},
+{"id":"IKKA", "group": 2, "dark": 0},
+{"id":"BRAF", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"FAK1","target":"TRIO","value":1},
+{ "source":"KALRN","target":"TRIO","value":1},
+{ "source":"ROCK2","target":"TRIO","value":1},
+{ "source":"PAK3","target":"TRIO","value":1},
+{ "source":"FYN","target":"TRIO","value":1},
+{ "source":"SRC","target":"TRIO","value":1},
+{ "source":"PAK1","target":"TRIO","value":1},
+{ "source":"PAK2","target":"TRIO","value":1},
+{ "source":"ROCK1","target":"TRIO","value":1},
+{ "source":"TRIO","target":"IKKA","value":1},
+{ "source":"BRAF","target":"TRIO","value":1}] 
+ }

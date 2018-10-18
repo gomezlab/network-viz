@@ -1,0 +1,29 @@
+{ 
+ "nodes": [
+{"id":"NEK6", "group": 1, "dark": 0},
+{"id":"SGK1", "group": 2, "dark": 0},
+{"id":"NEK9", "group": 2, "dark": 0},
+{"id":"CDK7", "group": 2, "dark": 0},
+{"id":"KS6B1", "group": 2, "dark": 0},
+{"id":"TGFR1", "group": 2, "dark": 0},
+{"id":"NEK7", "group": 2, "dark": 0},
+{"id":"WEE1", "group": 2, "dark": 0},
+{"id":"PAK6", "group": 2, "dark": 0},
+{"id":"KPYM", "group": 2, "dark": 0},
+{"id":"ACK1", "group": 2, "dark": 0},
+{"id":"PLK1", "group": 2, "dark": 0},
+{"id":"DDR1", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"NEK6","target":"SGK1","value":1},
+{ "source":"NEK9","target":"NEK6","value":1},
+{ "source":"NEK6","target":"CDK7","value":1},
+{ "source":"NEK6","target":"KS6B1","value":1},
+{ "source":"NEK6","target":"TGFR1","value":1},
+{ "source":"NEK6","target":"NEK7","value":1},
+{ "source":"WEE1","target":"NEK6","value":1},
+{ "source":"PAK6","target":"NEK6","value":1},
+{ "source":"NEK6","target":"KPYM","value":1},
+{ "source":"ACK1","target":"NEK6","value":1},
+{ "source":"PLK1","target":"NEK6","value":1},
+{ "source":"NEK6","target":"DDR1","value":1}] 
+ }

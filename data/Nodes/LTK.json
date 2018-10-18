@@ -1,0 +1,11 @@
+{ 
+ "nodes": [
+{"id":"LTK", "group": 1, "dark": 0},
+{"id":"RAF1", "group": 2, "dark": 0},
+{"id":"ACK1", "group": 2, "dark": 0},
+{"id":"KPYM", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"RAF1","target":"LTK","value":1},
+{ "source":"ACK1","target":"LTK","value":1},
+{ "source":"LTK","target":"KPYM","value":1}] 
+ }

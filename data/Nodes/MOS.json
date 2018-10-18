@@ -1,0 +1,17 @@
+{ 
+ "nodes": [
+{"id":"MOS", "group": 1, "dark": 0},
+{"id":"BMPR2", "group": 2, "dark": 0},
+{"id":"FYN", "group": 2, "dark": 0},
+{"id":"PMYT1", "group": 2, "dark": 0},
+{"id":"MP2K2", "group": 2, "dark": 0},
+{"id":"MST4", "group": 2, "dark": 0},
+{"id":"STK25", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"BMPR2","target":"MOS","value":1},
+{ "source":"FYN","target":"MOS","value":1},
+{ "source":"MOS","target":"PMYT1","value":1},
+{ "source":"MP2K2","target":"MOS","value":1},
+{ "source":"MOS","target":"MST4","value":1},
+{ "source":"MOS","target":"STK25","value":1}] 
+ }

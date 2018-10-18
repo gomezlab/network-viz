@@ -1,0 +1,23 @@
+{ 
+ "nodes": [
+{"id":"KGP1", "group": 1, "dark": 0},
+{"id":"BMPR2", "group": 2, "dark": 0},
+{"id":"RAF1", "group": 2, "dark": 0},
+{"id":"ANPRA", "group": 2, "dark": 0},
+{"id":"MK14", "group": 2, "dark": 0},
+{"id":"KGP2", "group": 2, "dark": 0},
+{"id":"KPCA", "group": 2, "dark": 0},
+{"id":"PAK1", "group": 2, "dark": 0},
+{"id":"TOPK", "group": 2, "dark": 0},
+{"id":"TITIN", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"BMPR2","target":"KGP1","value":1},
+{ "source":"RAF1","target":"KGP1","value":1},
+{ "source":"KGP1","target":"ANPRA","value":1},
+{ "source":"MK14","target":"KGP1","value":1},
+{ "source":"KGP2","target":"KGP1","value":1},
+{ "source":"KPCA","target":"KGP1","value":1},
+{ "source":"PAK1","target":"KGP1","value":1},
+{ "source":"TOPK","target":"KGP1","value":1},
+{ "source":"KGP1","target":"TITIN","value":1}] 
+ }

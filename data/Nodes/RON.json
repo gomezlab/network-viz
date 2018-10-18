@@ -1,0 +1,17 @@
+{ 
+ "nodes": [
+{"id":"RON", "group": 1, "dark": 0},
+{"id":"YES", "group": 2, "dark": 0},
+{"id":"SRC", "group": 2, "dark": 0},
+{"id":"JAK2", "group": 2, "dark": 0},
+{"id":"AKT1", "group": 2, "dark": 0},
+{"id":"KPYM", "group": 2, "dark": 0},
+{"id":"MET", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"RON","target":"YES","value":1},
+{ "source":"RON","target":"SRC","value":1},
+{ "source":"JAK2","target":"RON","value":1},
+{ "source":"AKT1","target":"RON","value":1},
+{ "source":"KPYM","target":"RON","value":1},
+{ "source":"RON","target":"MET","value":1}] 
+ }

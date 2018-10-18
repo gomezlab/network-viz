@@ -1,0 +1,7 @@
+{ 
+ "nodes": [
+{"id":"TSSK4", "group": 1, "dark": 0},
+{"id":"TGFR1", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"TGFR1","target":"TSSK4","value":1}] 
+ }

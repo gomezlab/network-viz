@@ -1,0 +1,9 @@
+{ 
+ "nodes": [
+{"id":"DAPK2", "group": 1, "dark": 0},
+{"id":"KCC2A", "group": 2, "dark": 0},
+{"id":"TGFR1", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"DAPK2","target":"KCC2A","value":1},
+{ "source":"DAPK2","target":"TGFR1","value":1}] 
+ }

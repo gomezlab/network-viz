@@ -1,0 +1,31 @@
+{ 
+ "nodes": [
+{"id":"MATK", "group": 1, "dark": 0},
+{"id":"KIT", "group": 2, "dark": 0},
+{"id":"LYN", "group": 2, "dark": 0},
+{"id":"SRC", "group": 2, "dark": 0},
+{"id":"NTRK1", "group": 2, "dark": 0},
+{"id":"FAK2", "group": 2, "dark": 0},
+{"id":"ERBB2", "group": 2, "dark": 0},
+{"id":"LRRK1", "group": 2, "dark": 0},
+{"id":"LRRK2", "group": 2, "dark": 0},
+{"id":"MET", "group": 2, "dark": 0},
+{"id":"EGFR", "group": 2, "dark": 0},
+{"id":"ERBB3", "group": 2, "dark": 0},
+{"id":"ERBB4", "group": 2, "dark": 0},
+{"id":"HCK", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"MATK","target":"KIT","value":1},
+{ "source":"MATK","target":"LYN","value":1},
+{ "source":"MATK","target":"SRC","value":1},
+{ "source":"MATK","target":"NTRK1","value":1},
+{ "source":"FAK2","target":"MATK","value":1},
+{ "source":"MATK","target":"ERBB2","value":1},
+{ "source":"LRRK1","target":"MATK","value":1},
+{ "source":"LRRK2","target":"MATK","value":1},
+{ "source":"MET","target":"MATK","value":1},
+{ "source":"EGFR","target":"MATK","value":1},
+{ "source":"ERBB3","target":"MATK","value":1},
+{ "source":"MATK","target":"ERBB4","value":1},
+{ "source":"HCK","target":"MATK","value":1}] 
+ }

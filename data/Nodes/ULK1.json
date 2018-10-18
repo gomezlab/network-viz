@@ -1,0 +1,19 @@
+{ 
+ "nodes": [
+{"id":"ULK1", "group": 1, "dark": 0},
+{"id":"AAPK1", "group": 2, "dark": 0},
+{"id":"AAPK2", "group": 2, "dark": 0},
+{"id":"MTOR", "group": 2, "dark": 0},
+{"id":"CDK9", "group": 2, "dark": 0},
+{"id":"CDK4", "group": 2, "dark": 0},
+{"id":"ULK2", "group": 2, "dark": 0},
+{"id":"DAPK3", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"ULK1","target":"AAPK1","value":1},
+{ "source":"AAPK2","target":"ULK1","value":1},
+{ "source":"ULK1","target":"MTOR","value":1},
+{ "source":"CDK9","target":"ULK1","value":1},
+{ "source":"CDK4","target":"ULK1","value":1},
+{ "source":"ULK1","target":"ULK2","value":1},
+{ "source":"ULK1","target":"DAPK3","value":1}] 
+ }

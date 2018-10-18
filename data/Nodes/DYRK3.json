@@ -1,0 +1,7 @@
+{ 
+ "nodes": [
+{"id":"DYRK3", "group": 1, "dark": 0},
+{"id":"KPYM", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"DYRK3","target":"KPYM","value":1}] 
+ }

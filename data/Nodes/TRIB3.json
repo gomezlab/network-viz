@@ -1,0 +1,29 @@
+{ 
+ "nodes": [
+{"id":"TRIB3", "group": 1, "dark": 0},
+{"id":"AKT1", "group": 2, "dark": 0},
+{"id":"AKT2", "group": 2, "dark": 0},
+{"id":"MP2K1", "group": 2, "dark": 0},
+{"id":"MP2K7", "group": 2, "dark": 0},
+{"id":"BMPR2", "group": 2, "dark": 0},
+{"id":"STK40", "group": 2, "dark": 0},
+{"id":"FGFR1", "group": 2, "dark": 0},
+{"id":"FGFR2", "group": 2, "dark": 0},
+{"id":"FGFR4", "group": 2, "dark": 0},
+{"id":"FGFR3", "group": 2, "dark": 0},
+{"id":"PDPK1", "group": 2, "dark": 0},
+{"id":"PI3R4", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"TRIB3","target":"AKT1","value":1},
+{ "source":"TRIB3","target":"AKT2","value":1},
+{ "source":"MP2K1","target":"TRIB3","value":1},
+{ "source":"MP2K7","target":"TRIB3","value":1},
+{ "source":"BMPR2","target":"TRIB3","value":1},
+{ "source":"TRIB3","target":"STK40","value":1},
+{ "source":"FGFR1","target":"TRIB3","value":1},
+{ "source":"FGFR2","target":"TRIB3","value":1},
+{ "source":"FGFR4","target":"TRIB3","value":1},
+{ "source":"FGFR3","target":"TRIB3","value":1},
+{ "source":"TRIB3","target":"PDPK1","value":1},
+{ "source":"TRIB3","target":"PI3R4","value":1}] 
+ }

@@ -1,0 +1,13 @@
+{ 
+ "nodes": [
+{"id":"KGP2", "group": 1, "dark": 0},
+{"id":"MYLK", "group": 2, "dark": 0},
+{"id":"CDKL5", "group": 2, "dark": 0},
+{"id":"KPYM", "group": 2, "dark": 0},
+{"id":"KGP1", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"KGP2","target":"MYLK","value":1},
+{ "source":"CDKL5","target":"KGP2","value":1},
+{ "source":"KGP2","target":"KPYM","value":1},
+{ "source":"KGP2","target":"KGP1","value":1}] 
+ }

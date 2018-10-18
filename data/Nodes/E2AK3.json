@@ -1,0 +1,7 @@
+{ 
+ "nodes": [
+{"id":"E2AK3", "group": 1, "dark": 0},
+{"id":"IKKB", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"E2AK3","target":"IKKB","value":1}] 
+ }

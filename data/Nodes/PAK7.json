@@ -1,0 +1,15 @@
+{ 
+ "nodes": [
+{"id":"PAK7", "group": 1, "dark": 0},
+{"id":"KPYM", "group": 2, "dark": 0},
+{"id":"MP2K4", "group": 2, "dark": 0},
+{"id":"RAF1", "group": 2, "dark": 0},
+{"id":"MP2K1", "group": 2, "dark": 0},
+{"id":"PAK4", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"KPYM","target":"PAK7","value":1},
+{ "source":"MP2K4","target":"PAK7","value":1},
+{ "source":"PAK7","target":"RAF1","value":1},
+{ "source":"MP2K1","target":"PAK7","value":1},
+{ "source":"PAK4","target":"PAK7","value":1}] 
+ }

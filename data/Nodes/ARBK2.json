@@ -1,0 +1,7 @@
+{ 
+ "nodes": [
+{"id":"ARBK2", "group": 1, "dark": 0},
+{"id":"ARBK1", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"ARBK1","target":"ARBK2","value":1}] 
+ }

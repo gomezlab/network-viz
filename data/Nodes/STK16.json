@@ -1,0 +1,15 @@
+{ 
+ "nodes": [
+{"id":"STK16", "group": 1, "dark": 0},
+{"id":"PASK", "group": 2, "dark": 0},
+{"id":"ROCK2", "group": 2, "dark": 0},
+{"id":"SNRK", "group": 2, "dark": 0},
+{"id":"MELK", "group": 2, "dark": 0},
+{"id":"IKKE", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"PASK","target":"STK16","value":1},
+{ "source":"ROCK2","target":"STK16","value":1},
+{ "source":"SNRK","target":"STK16","value":1},
+{ "source":"MELK","target":"STK16","value":1},
+{ "source":"IKKE","target":"STK16","value":1}] 
+ }

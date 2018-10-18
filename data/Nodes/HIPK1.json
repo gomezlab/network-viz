@@ -1,0 +1,9 @@
+{ 
+ "nodes": [
+{"id":"HIPK1", "group": 1, "dark": 0},
+{"id":"IGF1R", "group": 2, "dark": 0},
+{"id":"KPYM", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"IGF1R","target":"HIPK1","value":1},
+{ "source":"HIPK1","target":"KPYM","value":1}] 
+ }

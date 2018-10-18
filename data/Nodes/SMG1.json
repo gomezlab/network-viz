@@ -1,0 +1,7 @@
+{ 
+ "nodes": [
+{"id":"SMG1", "group": 1, "dark": 0},
+{"id":"KPCI", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"SMG1","target":"KPCI","value":1}] 
+ }

@@ -1,0 +1,25 @@
+{ 
+ "nodes": [
+{"id":"STK25", "group": 1, "dark": 0},
+{"id":"STK24", "group": 2, "dark": 0},
+{"id":"MST4", "group": 2, "dark": 0},
+{"id":"LRRK2", "group": 2, "dark": 0},
+{"id":"TAOK1", "group": 2, "dark": 0},
+{"id":"PRKDC", "group": 2, "dark": 0},
+{"id":"KPYM", "group": 2, "dark": 0},
+{"id":"MK09", "group": 2, "dark": 0},
+{"id":"TAOK2", "group": 2, "dark": 0},
+{"id":"MOS", "group": 2, "dark": 0},
+{"id":"MK01", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"STK24","target":"STK25","value":1},
+{ "source":"STK25","target":"MST4","value":1},
+{ "source":"LRRK2","target":"STK25","value":1},
+{ "source":"STK25","target":"TAOK1","value":1},
+{ "source":"STK25","target":"PRKDC","value":1},
+{ "source":"STK25","target":"KPYM","value":1},
+{ "source":"MK09","target":"STK25","value":1},
+{ "source":"STK25","target":"TAOK2","value":1},
+{ "source":"MOS","target":"STK25","value":1},
+{ "source":"MK01","target":"STK25","value":1}] 
+ }

@@ -1,0 +1,13 @@
+{ 
+ "nodes": [
+{"id":"OBSCN", "group": 1, "dark": 0},
+{"id":"TITIN", "group": 2, "dark": 0},
+{"id":"KALRN", "group": 2, "dark": 0},
+{"id":"ROCK2", "group": 2, "dark": 0},
+{"id":"ROCK1", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"OBSCN","target":"TITIN","value":1},
+{ "source":"KALRN","target":"OBSCN","value":1},
+{ "source":"ROCK2","target":"OBSCN","value":1},
+{ "source":"ROCK1","target":"OBSCN","value":1}] 
+ }

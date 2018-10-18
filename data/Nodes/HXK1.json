@@ -1,0 +1,13 @@
+{ 
+ "nodes": [
+{"id":"HXK1", "group": 1, "dark": 0},
+{"id":"AKT1", "group": 2, "dark": 0},
+{"id":"CDK2", "group": 2, "dark": 0},
+{"id":"LRRK2", "group": 2, "dark": 0},
+{"id":"EGFR", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"AKT1","target":"HXK1","value":1},
+{ "source":"CDK2","target":"HXK1","value":1},
+{ "source":"LRRK2","target":"HXK1","value":1},
+{ "source":"EGFR","target":"HXK1","value":1}] 
+ }

@@ -1,0 +1,15 @@
+{ 
+ "nodes": [
+{"id":"BRD4", "group": 1, "dark": 0},
+{"id":"CDK9", "group": 2, "dark": 0},
+{"id":"BRD2", "group": 2, "dark": 0},
+{"id":"KCRM", "group": 2, "dark": 0},
+{"id":"BRD3", "group": 2, "dark": 0},
+{"id":"KAD1", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"BRD4","target":"CDK9","value":1},
+{ "source":"BRD4","target":"BRD2","value":1},
+{ "source":"BRD4","target":"KCRM","value":1},
+{ "source":"BRD4","target":"BRD3","value":1},
+{ "source":"BRD4","target":"KAD1","value":1}] 
+ }

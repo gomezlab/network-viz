@@ -1,0 +1,27 @@
+{ 
+ "nodes": [
+{"id":"MAPK3", "group": 1, "dark": 0},
+{"id":"MK14", "group": 2, "dark": 0},
+{"id":"EF2K", "group": 2, "dark": 0},
+{"id":"MK13", "group": 2, "dark": 0},
+{"id":"MK11", "group": 2, "dark": 0},
+{"id":"KPYM", "group": 2, "dark": 0},
+{"id":"PRKY", "group": 2, "dark": 0},
+{"id":"BRAF", "group": 2, "dark": 0},
+{"id":"STK11", "group": 2, "dark": 0},
+{"id":"EGFR", "group": 2, "dark": 0},
+{"id":"BUB1", "group": 2, "dark": 0},
+{"id":"SRC", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"MAPK3","target":"MK14","value":1},
+{ "source":"MAPK3","target":"EF2K","value":1},
+{ "source":"MK13","target":"MAPK3","value":1},
+{ "source":"MAPK3","target":"MK11","value":1},
+{ "source":"MAPK3","target":"KPYM","value":1},
+{ "source":"MAPK3","target":"PRKY","value":1},
+{ "source":"MAPK3","target":"BRAF","value":1},
+{ "source":"STK11","target":"MAPK3","value":1},
+{ "source":"EGFR","target":"MAPK3","value":1},
+{ "source":"BUB1","target":"MAPK3","value":1},
+{ "source":"SRC","target":"MAPK3","value":1}] 
+ }

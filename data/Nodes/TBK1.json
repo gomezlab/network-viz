@@ -1,0 +1,29 @@
+{ 
+ "nodes": [
+{"id":"TBK1", "group": 1, "dark": 0},
+{"id":"IKKB", "group": 2, "dark": 0},
+{"id":"IKKE", "group": 2, "dark": 0},
+{"id":"MRCKG", "group": 2, "dark": 0},
+{"id":"SRC", "group": 2, "dark": 0},
+{"id":"M3K14", "group": 2, "dark": 0},
+{"id":"KSYK", "group": 2, "dark": 0},
+{"id":"KPYM", "group": 2, "dark": 0},
+{"id":"EGFR", "group": 2, "dark": 0},
+{"id":"LATS2", "group": 2, "dark": 0},
+{"id":"AKT1", "group": 2, "dark": 0},
+{"id":"IKKA", "group": 2, "dark": 0},
+{"id":"RIOK3", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"IKKB","target":"TBK1","value":1},
+{ "source":"TBK1","target":"IKKE","value":1},
+{ "source":"TBK1","target":"MRCKG","value":1},
+{ "source":"TBK1","target":"SRC","value":1},
+{ "source":"TBK1","target":"M3K14","value":1},
+{ "source":"KSYK","target":"TBK1","value":1},
+{ "source":"KPYM","target":"TBK1","value":1},
+{ "source":"EGFR","target":"TBK1","value":1},
+{ "source":"LATS2","target":"TBK1","value":1},
+{ "source":"AKT1","target":"TBK1","value":1},
+{ "source":"TBK1","target":"IKKA","value":1},
+{ "source":"RIOK3","target":"TBK1","value":1}] 
+ }

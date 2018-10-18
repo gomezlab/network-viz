@@ -1,0 +1,13 @@
+{ 
+ "nodes": [
+{"id":"PRP4B", "group": 1, "dark": 0},
+{"id":"MK12", "group": 2, "dark": 0},
+{"id":"SRPK2", "group": 2, "dark": 0},
+{"id":"SRPK3", "group": 2, "dark": 0},
+{"id":"AAPK1", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"PRP4B","target":"MK12","value":1},
+{ "source":"SRPK2","target":"PRP4B","value":1},
+{ "source":"SRPK3","target":"PRP4B","value":1},
+{ "source":"AAPK1","target":"PRP4B","value":1}] 
+ }

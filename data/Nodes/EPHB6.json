@@ -1,0 +1,11 @@
+{ 
+ "nodes": [
+{"id":"EPHB6", "group": 1, "dark": 0},
+{"id":"EPHB1", "group": 2, "dark": 0},
+{"id":"EPHB4", "group": 2, "dark": 0},
+{"id":"ABL1", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"EPHB6","target":"EPHB1","value":1},
+{ "source":"EPHB6","target":"EPHB4","value":1},
+{ "source":"ABL1","target":"EPHB6","value":1}] 
+ }

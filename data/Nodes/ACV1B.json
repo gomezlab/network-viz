@@ -1,0 +1,19 @@
+{ 
+ "nodes": [
+{"id":"ACV1B", "group": 1, "dark": 0},
+{"id":"AVR2B", "group": 2, "dark": 0},
+{"id":"BMPR2", "group": 2, "dark": 0},
+{"id":"AVR2A", "group": 2, "dark": 0},
+{"id":"ACVR1", "group": 2, "dark": 0},
+{"id":"KAPCB", "group": 2, "dark": 0},
+{"id":"TGFR2", "group": 2, "dark": 0},
+{"id":"ACV1C", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"AVR2B","target":"ACV1B","value":1},
+{ "source":"BMPR2","target":"ACV1B","value":1},
+{ "source":"ACV1B","target":"AVR2A","value":1},
+{ "source":"ACV1B","target":"ACVR1","value":1},
+{ "source":"KAPCB","target":"ACV1B","value":1},
+{ "source":"TGFR2","target":"ACV1B","value":1},
+{ "source":"ACV1B","target":"ACV1C","value":1}] 
+ }

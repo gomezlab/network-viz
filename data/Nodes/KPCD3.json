@@ -1,0 +1,13 @@
+{ 
+ "nodes": [
+{"id":"KPCD3", "group": 1, "dark": 0},
+{"id":"GSK3A", "group": 2, "dark": 0},
+{"id":"KPYM", "group": 2, "dark": 0},
+{"id":"KPCD1", "group": 2, "dark": 0},
+{"id":"KPCA", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"KPCD3","target":"GSK3A","value":1},
+{ "source":"KPCD3","target":"KPYM","value":1},
+{ "source":"KPCD3","target":"KPCD1","value":1},
+{ "source":"KPCA","target":"KPCD3","value":1}] 
+ }

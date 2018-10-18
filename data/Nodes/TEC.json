@@ -1,0 +1,33 @@
+{ 
+ "nodes": [
+{"id":"TEC", "group": 1, "dark": 0},
+{"id":"KIT", "group": 2, "dark": 0},
+{"id":"BMX", "group": 2, "dark": 0},
+{"id":"BTK", "group": 2, "dark": 0},
+{"id":"PLK4", "group": 2, "dark": 0},
+{"id":"LYN", "group": 2, "dark": 0},
+{"id":"PI51A", "group": 2, "dark": 0},
+{"id":"PI42A", "group": 2, "dark": 0},
+{"id":"JAK1", "group": 2, "dark": 0},
+{"id":"JAK2", "group": 2, "dark": 0},
+{"id":"ERBB2", "group": 2, "dark": 0},
+{"id":"MET", "group": 2, "dark": 0},
+{"id":"KSYK", "group": 2, "dark": 0},
+{"id":"SRC", "group": 2, "dark": 0},
+{"id":"FRK", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"TEC","target":"KIT","value":1},
+{ "source":"TEC","target":"BMX","value":1},
+{ "source":"TEC","target":"BTK","value":1},
+{ "source":"PLK4","target":"TEC","value":1},
+{ "source":"LYN","target":"TEC","value":1},
+{ "source":"TEC","target":"PI51A","value":1},
+{ "source":"TEC","target":"PI42A","value":1},
+{ "source":"TEC","target":"JAK1","value":1},
+{ "source":"TEC","target":"JAK2","value":1},
+{ "source":"TEC","target":"ERBB2","value":1},
+{ "source":"TEC","target":"MET","value":1},
+{ "source":"KSYK","target":"TEC","value":1},
+{ "source":"SRC","target":"TEC","value":1},
+{ "source":"TEC","target":"FRK","value":1}] 
+ }

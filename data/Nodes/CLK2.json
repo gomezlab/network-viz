@@ -1,0 +1,15 @@
+{ 
+ "nodes": [
+{"id":"CLK2", "group": 1, "dark": 0},
+{"id":"CLK3", "group": 2, "dark": 0},
+{"id":"ATR", "group": 2, "dark": 0},
+{"id":"AKT1", "group": 2, "dark": 0},
+{"id":"SRPK2", "group": 2, "dark": 0},
+{"id":"CHK2", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"CLK2","target":"CLK3","value":1},
+{ "source":"ATR","target":"CLK2","value":1},
+{ "source":"CLK2","target":"AKT1","value":1},
+{ "source":"CLK2","target":"SRPK2","value":1},
+{ "source":"CLK2","target":"CHK2","value":1}] 
+ }

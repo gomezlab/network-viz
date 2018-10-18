@@ -1,0 +1,33 @@
+{ 
+ "nodes": [
+{"id":"AKT3", "group": 1, "dark": 0},
+{"id":"KPCD", "group": 2, "dark": 0},
+{"id":"KPCZ", "group": 2, "dark": 0},
+{"id":"PDPK1", "group": 2, "dark": 0},
+{"id":"GSK3B", "group": 2, "dark": 0},
+{"id":"KPYM", "group": 2, "dark": 0},
+{"id":"IKKB", "group": 2, "dark": 0},
+{"id":"PDK1", "group": 2, "dark": 0},
+{"id":"PK3CA", "group": 2, "dark": 0},
+{"id":"PK3CG", "group": 2, "dark": 0},
+{"id":"PK3CD", "group": 2, "dark": 0},
+{"id":"ILK", "group": 2, "dark": 0},
+{"id":"VGFR1", "group": 2, "dark": 0},
+{"id":"PK3CB", "group": 2, "dark": 0},
+{"id":"BRAF", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"KPCD","target":"AKT3","value":1},
+{ "source":"KPCZ","target":"AKT3","value":1},
+{ "source":"PDPK1","target":"AKT3","value":1},
+{ "source":"AKT3","target":"GSK3B","value":1},
+{ "source":"AKT3","target":"KPYM","value":1},
+{ "source":"AKT3","target":"IKKB","value":1},
+{ "source":"AKT3","target":"PDK1","value":1},
+{ "source":"AKT3","target":"PK3CA","value":1},
+{ "source":"AKT3","target":"PK3CG","value":1},
+{ "source":"AKT3","target":"PK3CD","value":1},
+{ "source":"AKT3","target":"ILK","value":1},
+{ "source":"AKT3","target":"VGFR1","value":1},
+{ "source":"AKT3","target":"PK3CB","value":1},
+{ "source":"AKT3","target":"BRAF","value":1}] 
+ }

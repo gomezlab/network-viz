@@ -1,0 +1,9 @@
+{ 
+ "nodes": [
+{"id":"PRKY", "group": 1, "dark": 0},
+{"id":"MK14", "group": 2, "dark": 0},
+{"id":"MAPK3", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"MK14","target":"PRKY","value":1},
+{ "source":"MAPK3","target":"PRKY","value":1}] 
+ }

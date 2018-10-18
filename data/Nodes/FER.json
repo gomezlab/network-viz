@@ -1,0 +1,25 @@
+{ 
+ "nodes": [
+{"id":"FER", "group": 1, "dark": 0},
+{"id":"EGFR", "group": 2, "dark": 0},
+{"id":"JAK1", "group": 2, "dark": 0},
+{"id":"ERBB2", "group": 2, "dark": 0},
+{"id":"ERBB3", "group": 2, "dark": 0},
+{"id":"KPYM", "group": 2, "dark": 0},
+{"id":"YES", "group": 2, "dark": 0},
+{"id":"PGFRB", "group": 2, "dark": 0},
+{"id":"KIT", "group": 2, "dark": 0},
+{"id":"MK01", "group": 2, "dark": 0},
+{"id":"SRC", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"FER","target":"EGFR","value":1},
+{ "source":"FER","target":"JAK1","value":1},
+{ "source":"FER","target":"ERBB2","value":1},
+{ "source":"FER","target":"ERBB3","value":1},
+{ "source":"FER","target":"KPYM","value":1},
+{ "source":"FER","target":"YES","value":1},
+{ "source":"FER","target":"PGFRB","value":1},
+{ "source":"FER","target":"KIT","value":1},
+{ "source":"MK01","target":"FER","value":1},
+{ "source":"SRC","target":"FER","value":1}] 
+ }

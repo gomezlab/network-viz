@@ -1,0 +1,11 @@
+{ 
+ "nodes": [
+{"id":"CD11B", "group": 1, "dark": 0},
+{"id":"PAK1", "group": 2, "dark": 0},
+{"id":"CSK22", "group": 2, "dark": 0},
+{"id":"CD11A", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"PAK1","target":"CD11B","value":1},
+{ "source":"CSK22","target":"CD11B","value":1},
+{ "source":"CD11A","target":"CD11B","value":1}] 
+ }

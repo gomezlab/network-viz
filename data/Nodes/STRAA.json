@@ -1,0 +1,7 @@
+{ 
+ "nodes": [
+{"id":"STRAA", "group": 1, "dark": 0},
+{"id":"STK11", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"STK11","target":"STRAA","value":1}] 
+ }

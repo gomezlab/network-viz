@@ -1,0 +1,9 @@
+{ 
+ "nodes": [
+{"id":"KCC1G", "group": 1, "dark": 0},
+{"id":"KCC1A", "group": 2, "dark": 0},
+{"id":"KCC1D", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"KCC1A","target":"KCC1G","value":1},
+{ "source":"KCC1D","target":"KCC1G","value":1}] 
+ }

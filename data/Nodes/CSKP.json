@@ -1,0 +1,17 @@
+{ 
+ "nodes": [
+{"id":"CSKP", "group": 1, "dark": 0},
+{"id":"KPCD2", "group": 2, "dark": 0},
+{"id":"CDK9", "group": 2, "dark": 0},
+{"id":"PLK2", "group": 2, "dark": 0},
+{"id":"SRPK2", "group": 2, "dark": 0},
+{"id":"IGF1R", "group": 2, "dark": 0},
+{"id":"KCC2D", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"KPCD2","target":"CSKP","value":1},
+{ "source":"CSKP","target":"CDK9","value":1},
+{ "source":"PLK2","target":"CSKP","value":1},
+{ "source":"SRPK2","target":"CSKP","value":1},
+{ "source":"IGF1R","target":"CSKP","value":1},
+{ "source":"KCC2D","target":"CSKP","value":1}] 
+ }

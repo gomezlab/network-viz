@@ -1,0 +1,13 @@
+{ 
+ "nodes": [
+{"id":"MERTK", "group": 1, "dark": 0},
+{"id":"BMPR2", "group": 2, "dark": 0},
+{"id":"ACK1", "group": 2, "dark": 0},
+{"id":"KPYM", "group": 2, "dark": 0},
+{"id":"UFO", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"MERTK","target":"BMPR2","value":1},
+{ "source":"MERTK","target":"ACK1","value":1},
+{ "source":"MERTK","target":"KPYM","value":1},
+{ "source":"UFO","target":"MERTK","value":1}] 
+ }

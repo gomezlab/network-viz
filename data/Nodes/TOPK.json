@@ -1,0 +1,19 @@
+{ 
+ "nodes": [
+{"id":"TOPK", "group": 1, "dark": 0},
+{"id":"ARAF", "group": 2, "dark": 0},
+{"id":"RAF1", "group": 2, "dark": 0},
+{"id":"CDK1", "group": 2, "dark": 0},
+{"id":"CSK22", "group": 2, "dark": 0},
+{"id":"CSK21", "group": 2, "dark": 0},
+{"id":"GSK3B", "group": 2, "dark": 0},
+{"id":"KGP1", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"TOPK","target":"ARAF","value":1},
+{ "source":"TOPK","target":"RAF1","value":1},
+{ "source":"CDK1","target":"TOPK","value":1},
+{ "source":"CSK22","target":"TOPK","value":1},
+{ "source":"TOPK","target":"CSK21","value":1},
+{ "source":"TOPK","target":"GSK3B","value":1},
+{ "source":"TOPK","target":"KGP1","value":1}] 
+ }

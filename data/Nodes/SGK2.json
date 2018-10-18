@@ -1,0 +1,9 @@
+{ 
+ "nodes": [
+{"id":"SGK2", "group": 1, "dark": 0},
+{"id":"PDPK1", "group": 2, "dark": 0},
+{"id":"RAF1", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"PDPK1","target":"SGK2","value":1},
+{ "source":"RAF1","target":"SGK2","value":1}] 
+ }

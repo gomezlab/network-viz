@@ -1,0 +1,11 @@
+{ 
+ "nodes": [
+{"id":"TRIB2", "group": 1, "dark": 0},
+{"id":"LRRK2", "group": 2, "dark": 0},
+{"id":"KS6B1", "group": 2, "dark": 0},
+{"id":"WEE1", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"TRIB2","target":"LRRK2","value":1},
+{ "source":"TRIB2","target":"KS6B1","value":1},
+{ "source":"WEE1","target":"TRIB2","value":1}] 
+ }

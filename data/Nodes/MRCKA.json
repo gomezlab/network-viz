@@ -1,0 +1,11 @@
+{ 
+ "nodes": [
+{"id":"MRCKA", "group": 1, "dark": 0},
+{"id":"LIMK1", "group": 2, "dark": 0},
+{"id":"LIMK2", "group": 2, "dark": 0},
+{"id":"MRCKB", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"MRCKA","target":"LIMK1","value":1},
+{ "source":"MRCKA","target":"LIMK2","value":1},
+{ "source":"MRCKA","target":"MRCKB","value":1}] 
+ }

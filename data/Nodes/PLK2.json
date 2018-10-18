@@ -1,0 +1,11 @@
+{ 
+ "nodes": [
+{"id":"PLK2", "group": 1, "dark": 0},
+{"id":"CSKP", "group": 2, "dark": 0},
+{"id":"PAK2", "group": 2, "dark": 0},
+{"id":"PLK1", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"PLK2","target":"CSKP","value":1},
+{ "source":"PLK2","target":"PAK2","value":1},
+{ "source":"PLK2","target":"PLK1","value":1}] 
+ }

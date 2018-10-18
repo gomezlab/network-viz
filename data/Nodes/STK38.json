@@ -1,0 +1,21 @@
+{ 
+ "nodes": [
+{"id":"STK38", "group": 1, "dark": 0},
+{"id":"MTOR", "group": 2, "dark": 0},
+{"id":"GRK5", "group": 2, "dark": 0},
+{"id":"M3K2", "group": 2, "dark": 0},
+{"id":"M3K1", "group": 2, "dark": 0},
+{"id":"STK3", "group": 2, "dark": 0},
+{"id":"KAPCA", "group": 2, "dark": 0},
+{"id":"GSK3B", "group": 2, "dark": 0},
+{"id":"STK4", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"MTOR","target":"STK38","value":1},
+{ "source":"GRK5","target":"STK38","value":1},
+{ "source":"STK38","target":"M3K2","value":1},
+{ "source":"STK38","target":"M3K1","value":1},
+{ "source":"STK38","target":"STK3","value":1},
+{ "source":"KAPCA","target":"STK38","value":1},
+{ "source":"GSK3B","target":"STK38","value":1},
+{ "source":"STK4","target":"STK38","value":1}] 
+ }

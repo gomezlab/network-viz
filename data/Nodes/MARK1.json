@@ -1,0 +1,17 @@
+{ 
+ "nodes": [
+{"id":"MARK1", "group": 1, "dark": 0},
+{"id":"STK11", "group": 2, "dark": 0},
+{"id":"TAOK1", "group": 2, "dark": 0},
+{"id":"MARK2", "group": 2, "dark": 0},
+{"id":"AAPK1", "group": 2, "dark": 0},
+{"id":"LATS1", "group": 2, "dark": 0},
+{"id":"STK4", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"STK11","target":"MARK1","value":1},
+{ "source":"TAOK1","target":"MARK1","value":1},
+{ "source":"MARK2","target":"MARK1","value":1},
+{ "source":"AAPK1","target":"MARK1","value":1},
+{ "source":"MARK1","target":"LATS1","value":1},
+{ "source":"STK4","target":"MARK1","value":1}] 
+ }

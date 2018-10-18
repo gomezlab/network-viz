@@ -1,0 +1,7 @@
+{ 
+ "nodes": [
+{"id":"GRK6", "group": 1, "dark": 0},
+{"id":"IGF1R", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"GRK6","target":"IGF1R","value":1}] 
+ }

@@ -1,0 +1,17 @@
+{ 
+ "nodes": [
+{"id":"NUAK1", "group": 1, "dark": 0},
+{"id":"LATS1", "group": 2, "dark": 0},
+{"id":"STK11", "group": 2, "dark": 0},
+{"id":"AAPK1", "group": 2, "dark": 0},
+{"id":"PLK1", "group": 2, "dark": 0},
+{"id":"AKT1", "group": 2, "dark": 0},
+{"id":"ST38L", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"LATS1","target":"NUAK1","value":1},
+{ "source":"NUAK1","target":"STK11","value":1},
+{ "source":"AAPK1","target":"NUAK1","value":1},
+{ "source":"NUAK1","target":"PLK1","value":1},
+{ "source":"AKT1","target":"NUAK1","value":1},
+{ "source":"ST38L","target":"NUAK1","value":1}] 
+ }

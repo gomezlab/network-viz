@@ -1,0 +1,33 @@
+{ 
+ "nodes": [
+{"id":"CDK7", "group": 1, "dark": 0},
+{"id":"NEK6", "group": 2, "dark": 0},
+{"id":"CDK2", "group": 2, "dark": 0},
+{"id":"CDK4", "group": 2, "dark": 0},
+{"id":"CDK5", "group": 2, "dark": 0},
+{"id":"KPCI", "group": 2, "dark": 0},
+{"id":"CDK9", "group": 2, "dark": 0},
+{"id":"CDK6", "group": 2, "dark": 0},
+{"id":"SRPK1", "group": 2, "dark": 0},
+{"id":"SRPK2", "group": 2, "dark": 0},
+{"id":"CDK1", "group": 2, "dark": 0},
+{"id":"CDK20", "group": 2, "dark": 0},
+{"id":"WEE1", "group": 2, "dark": 0},
+{"id":"MK01", "group": 2, "dark": 0},
+{"id":"MK14", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"NEK6","target":"CDK7","value":1},
+{ "source":"CDK7","target":"CDK2","value":1},
+{ "source":"CDK4","target":"CDK7","value":1},
+{ "source":"CDK7","target":"CDK5","value":1},
+{ "source":"KPCI","target":"CDK7","value":1},
+{ "source":"CDK7","target":"CDK9","value":1},
+{ "source":"CDK7","target":"CDK6","value":1},
+{ "source":"SRPK1","target":"CDK7","value":1},
+{ "source":"SRPK2","target":"CDK7","value":1},
+{ "source":"CDK1","target":"CDK7","value":1},
+{ "source":"CDK7","target":"CDK20","value":1},
+{ "source":"CDK7","target":"WEE1","value":1},
+{ "source":"CDK7","target":"MK01","value":1},
+{ "source":"CDK7","target":"MK14","value":1}] 
+ }

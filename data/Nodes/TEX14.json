@@ -1,0 +1,7 @@
+{ 
+ "nodes": [
+{"id":"TEX14", "group": 1, "dark": 0},
+{"id":"PLK1", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"PLK1","target":"TEX14","value":1}] 
+ }

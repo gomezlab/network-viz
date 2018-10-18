@@ -1,0 +1,7 @@
+{ 
+ "nodes": [
+{"id":"TSSK2", "group": 1, "dark": 0},
+{"id":"KPYM", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"KPYM","target":"TSSK2","value":1}] 
+ }

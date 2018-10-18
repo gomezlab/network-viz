@@ -1,0 +1,9 @@
+{ 
+ "nodes": [
+{"id":"TRPM7", "group": 1, "dark": 0},
+{"id":"TRPM6", "group": 2, "dark": 0},
+{"id":"EF2K", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"TRPM7","target":"TRPM6","value":1},
+{ "source":"TRPM7","target":"EF2K","value":1}] 
+ }

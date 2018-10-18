@@ -1,0 +1,9 @@
+{ 
+ "nodes": [
+{"id":"HXK2", "group": 1, "dark": 0},
+{"id":"KPCE", "group": 2, "dark": 0},
+{"id":"EGFR", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"HXK2","target":"KPCE","value":1},
+{ "source":"EGFR","target":"HXK2","value":1}] 
+ }

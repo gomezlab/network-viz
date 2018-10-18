@@ -1,0 +1,11 @@
+{ 
+ "nodes": [
+{"id":"AURKC", "group": 1, "dark": 0},
+{"id":"SRPK1", "group": 2, "dark": 0},
+{"id":"AURKB", "group": 2, "dark": 0},
+{"id":"LRRK2", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"AURKC","target":"SRPK1","value":1},
+{ "source":"AURKB","target":"AURKC","value":1},
+{ "source":"AURKC","target":"LRRK2","value":1}] 
+ }

@@ -1,0 +1,17 @@
+{ 
+ "nodes": [
+{"id":"M3K12", "group": 1, "dark": 0},
+{"id":"M3K11", "group": 2, "dark": 0},
+{"id":"MP2K4", "group": 2, "dark": 0},
+{"id":"MP2K7", "group": 2, "dark": 0},
+{"id":"EGFR", "group": 2, "dark": 0},
+{"id":"MK06", "group": 2, "dark": 0},
+{"id":"MK14", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"M3K12","target":"M3K11","value":1},
+{ "source":"MP2K4","target":"M3K12","value":1},
+{ "source":"MP2K7","target":"M3K12","value":1},
+{ "source":"EGFR","target":"M3K12","value":1},
+{ "source":"MK06","target":"M3K12","value":1},
+{ "source":"M3K12","target":"MK14","value":1}] 
+ }

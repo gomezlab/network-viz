@@ -1,0 +1,11 @@
+{ 
+ "nodes": [
+{"id":"PASK", "group": 1, "dark": 0},
+{"id":"STK16", "group": 2, "dark": 0},
+{"id":"MET", "group": 2, "dark": 0},
+{"id":"NLK", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"PASK","target":"STK16","value":1},
+{ "source":"MET","target":"PASK","value":1},
+{ "source":"NLK","target":"PASK","value":1}] 
+ }

@@ -1,0 +1,15 @@
+{ 
+ "nodes": [
+{"id":"NUAK2", "group": 1, "dark": 0},
+{"id":"ACVR1", "group": 2, "dark": 0},
+{"id":"TGFR1", "group": 2, "dark": 0},
+{"id":"AAPK1", "group": 2, "dark": 0},
+{"id":"LATS1", "group": 2, "dark": 0},
+{"id":"STK11", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"ACVR1","target":"NUAK2","value":1},
+{ "source":"NUAK2","target":"TGFR1","value":1},
+{ "source":"AAPK1","target":"NUAK2","value":1},
+{ "source":"NUAK2","target":"LATS1","value":1},
+{ "source":"STK11","target":"NUAK2","value":1}] 
+ }

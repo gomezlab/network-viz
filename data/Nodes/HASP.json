@@ -1,0 +1,7 @@
+{ 
+ "nodes": [
+{"id":"HASP", "group": 1, "dark": 0},
+{"id":"AURKB", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"AURKB","target":"HASP","value":1}] 
+ }

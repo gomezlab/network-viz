@@ -1,0 +1,15 @@
+{ 
+ "nodes": [
+{"id":"CDK15", "group": 1, "dark": 0},
+{"id":"CDK2", "group": 2, "dark": 0},
+{"id":"CDK9", "group": 2, "dark": 0},
+{"id":"ROCK1", "group": 2, "dark": 0},
+{"id":"MARK2", "group": 2, "dark": 0},
+{"id":"CDK18", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"CDK2","target":"CDK15","value":1},
+{ "source":"CDK9","target":"CDK15","value":1},
+{ "source":"CDK15","target":"ROCK1","value":1},
+{ "source":"CDK15","target":"MARK2","value":1},
+{ "source":"CDK18","target":"CDK15","value":1}] 
+ }

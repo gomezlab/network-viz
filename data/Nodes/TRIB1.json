@@ -1,0 +1,13 @@
+{ 
+ "nodes": [
+{"id":"TRIB1", "group": 1, "dark": 0},
+{"id":"MP2K1", "group": 2, "dark": 0},
+{"id":"MP2K4", "group": 2, "dark": 0},
+{"id":"MP2K7", "group": 2, "dark": 0},
+{"id":"STK40", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"TRIB1","target":"MP2K1","value":1},
+{ "source":"TRIB1","target":"MP2K4","value":1},
+{ "source":"TRIB1","target":"MP2K7","value":1},
+{ "source":"TRIB1","target":"STK40","value":1}] 
+ }

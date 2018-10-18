@@ -1,0 +1,9 @@
+{ 
+ "nodes": [
+{"id":"ANPRA", "group": 1, "dark": 0},
+{"id":"KGP1", "group": 2, "dark": 0},
+{"id":"KAPCA", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"KGP1","target":"ANPRA","value":1},
+{ "source":"KAPCA","target":"ANPRA","value":1}] 
+ }

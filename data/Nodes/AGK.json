@@ -1,0 +1,9 @@
+{ 
+ "nodes": [
+{"id":"AGK", "group": 1, "dark": 0},
+{"id":"HCK", "group": 2, "dark": 0},
+{"id":"RYK", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"HCK","target":"AGK","value":1},
+{ "source":"RYK","target":"AGK","value":1}] 
+ }

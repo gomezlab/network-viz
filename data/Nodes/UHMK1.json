@@ -1,0 +1,7 @@
+{ 
+ "nodes": [
+{"id":"UHMK1", "group": 1, "dark": 0},
+{"id":"ABL1", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"UHMK1","target":"ABL1","value":1}] 
+ }

@@ -1,0 +1,15 @@
+{ 
+ "nodes": [
+{"id":"DAPK3", "group": 1, "dark": 0},
+{"id":"KPCZ", "group": 2, "dark": 0},
+{"id":"MET", "group": 2, "dark": 0},
+{"id":"CHK2", "group": 2, "dark": 0},
+{"id":"ULK1", "group": 2, "dark": 0},
+{"id":"ROCK1", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"DAPK3","target":"KPCZ","value":1},
+{ "source":"MET","target":"DAPK3","value":1},
+{ "source":"DAPK3","target":"CHK2","value":1},
+{ "source":"ULK1","target":"DAPK3","value":1},
+{ "source":"ROCK1","target":"DAPK3","value":1}] 
+ }

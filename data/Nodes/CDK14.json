@@ -1,0 +1,13 @@
+{ 
+ "nodes": [
+{"id":"CDK14", "group": 1, "dark": 0},
+{"id":"KCC1A", "group": 2, "dark": 0},
+{"id":"CDK5", "group": 2, "dark": 0},
+{"id":"ICK", "group": 2, "dark": 0},
+{"id":"CDK17", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"CDK14","target":"KCC1A","value":1},
+{ "source":"CDK5","target":"CDK14","value":1},
+{ "source":"CDK14","target":"ICK","value":1},
+{ "source":"CDK14","target":"CDK17","value":1}] 
+ }

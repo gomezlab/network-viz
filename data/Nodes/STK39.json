@@ -1,0 +1,17 @@
+{ 
+ "nodes": [
+{"id":"STK39", "group": 1, "dark": 0},
+{"id":"MK14", "group": 2, "dark": 0},
+{"id":"KPCT", "group": 2, "dark": 0},
+{"id":"WNK4", "group": 2, "dark": 0},
+{"id":"LMTK1", "group": 2, "dark": 0},
+{"id":"WNK2", "group": 2, "dark": 0},
+{"id":"WNK1", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"STK39","target":"MK14","value":1},
+{ "source":"KPCT","target":"STK39","value":1},
+{ "source":"STK39","target":"WNK4","value":1},
+{ "source":"STK39","target":"LMTK1","value":1},
+{ "source":"WNK2","target":"STK39","value":1},
+{ "source":"WNK1","target":"STK39","value":1}] 
+ }

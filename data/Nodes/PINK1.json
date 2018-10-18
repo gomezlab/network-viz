@@ -1,0 +1,15 @@
+{ 
+ "nodes": [
+{"id":"PINK1", "group": 1, "dark": 0},
+{"id":"PRKDC", "group": 2, "dark": 0},
+{"id":"MARK2", "group": 2, "dark": 0},
+{"id":"M3K7", "group": 2, "dark": 0},
+{"id":"IRAK1", "group": 2, "dark": 0},
+{"id":"AKT1", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"PINK1","target":"PRKDC","value":1},
+{ "source":"MARK2","target":"PINK1","value":1},
+{ "source":"PINK1","target":"M3K7","value":1},
+{ "source":"PINK1","target":"IRAK1","value":1},
+{ "source":"PINK1","target":"AKT1","value":1}] 
+ }

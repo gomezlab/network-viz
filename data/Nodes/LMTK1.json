@@ -1,0 +1,9 @@
+{ 
+ "nodes": [
+{"id":"LMTK1", "group": 1, "dark": 0},
+{"id":"STK39", "group": 2, "dark": 0},
+{"id":"CDK5", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"STK39","target":"LMTK1","value":1},
+{ "source":"LMTK1","target":"CDK5","value":1}] 
+ }

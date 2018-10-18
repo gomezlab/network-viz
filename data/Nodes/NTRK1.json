@@ -1,0 +1,29 @@
+{ 
+ "nodes": [
+{"id":"NTRK1", "group": 1, "dark": 0},
+{"id":"ABL1", "group": 2, "dark": 0},
+{"id":"MATK", "group": 2, "dark": 0},
+{"id":"MK03", "group": 2, "dark": 0},
+{"id":"ACK1", "group": 2, "dark": 0},
+{"id":"PK3CA", "group": 2, "dark": 0},
+{"id":"PK3CB", "group": 2, "dark": 0},
+{"id":"PK3CD", "group": 2, "dark": 0},
+{"id":"PK3CG", "group": 2, "dark": 0},
+{"id":"BRAF", "group": 2, "dark": 0},
+{"id":"CDK5", "group": 2, "dark": 0},
+{"id":"ULK2", "group": 2, "dark": 0},
+{"id":"MP2K2", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"NTRK1","target":"ABL1","value":1},
+{ "source":"MATK","target":"NTRK1","value":1},
+{ "source":"NTRK1","target":"MK03","value":1},
+{ "source":"ACK1","target":"NTRK1","value":1},
+{ "source":"NTRK1","target":"PK3CA","value":1},
+{ "source":"NTRK1","target":"PK3CB","value":1},
+{ "source":"NTRK1","target":"PK3CD","value":1},
+{ "source":"NTRK1","target":"PK3CG","value":1},
+{ "source":"BRAF","target":"NTRK1","value":1},
+{ "source":"CDK5","target":"NTRK1","value":1},
+{ "source":"ULK2","target":"NTRK1","value":1},
+{ "source":"NTRK1","target":"MP2K2","value":1}] 
+ }

@@ -1,0 +1,27 @@
+{ 
+ "nodes": [
+{"id":"ITK", "group": 1, "dark": 0},
+{"id":"BMX", "group": 2, "dark": 0},
+{"id":"BTK", "group": 2, "dark": 0},
+{"id":"TGFR1", "group": 2, "dark": 0},
+{"id":"FYN", "group": 2, "dark": 0},
+{"id":"LCK", "group": 2, "dark": 0},
+{"id":"SRC", "group": 2, "dark": 0},
+{"id":"ERBB2", "group": 2, "dark": 0},
+{"id":"ERBB3", "group": 2, "dark": 0},
+{"id":"FGFR1", "group": 2, "dark": 0},
+{"id":"MET", "group": 2, "dark": 0},
+{"id":"EGFR", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"ITK","target":"BMX","value":1},
+{ "source":"ITK","target":"BTK","value":1},
+{ "source":"ITK","target":"TGFR1","value":1},
+{ "source":"ITK","target":"FYN","value":1},
+{ "source":"LCK","target":"ITK","value":1},
+{ "source":"ITK","target":"SRC","value":1},
+{ "source":"ITK","target":"ERBB2","value":1},
+{ "source":"ITK","target":"ERBB3","value":1},
+{ "source":"FGFR1","target":"ITK","value":1},
+{ "source":"MET","target":"ITK","value":1},
+{ "source":"EGFR","target":"ITK","value":1}] 
+ }

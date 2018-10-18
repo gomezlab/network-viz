@@ -1,0 +1,19 @@
+{ 
+ "nodes": [
+{"id":"CDK8", "group": 1, "dark": 0},
+{"id":"CDK19", "group": 2, "dark": 0},
+{"id":"CDK9", "group": 2, "dark": 0},
+{"id":"CDK16", "group": 2, "dark": 0},
+{"id":"PRKDC", "group": 2, "dark": 0},
+{"id":"ERBB2", "group": 2, "dark": 0},
+{"id":"BUB1", "group": 2, "dark": 0},
+{"id":"BMR1A", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"CDK19","target":"CDK8","value":1},
+{ "source":"CDK8","target":"CDK9","value":1},
+{ "source":"CDK8","target":"CDK16","value":1},
+{ "source":"PRKDC","target":"CDK8","value":1},
+{ "source":"ERBB2","target":"CDK8","value":1},
+{ "source":"BUB1","target":"CDK8","value":1},
+{ "source":"CDK8","target":"BMR1A","value":1}] 
+ }

@@ -1,0 +1,21 @@
+{ 
+ "nodes": [
+{"id":"BMR1A", "group": 1, "dark": 0},
+{"id":"BMPR2", "group": 2, "dark": 0},
+{"id":"BMR1B", "group": 2, "dark": 0},
+{"id":"ACVR1", "group": 2, "dark": 0},
+{"id":"TGFR2", "group": 2, "dark": 0},
+{"id":"CDK8", "group": 2, "dark": 0},
+{"id":"MP2K1", "group": 2, "dark": 0},
+{"id":"AVR2A", "group": 2, "dark": 0},
+{"id":"AVR2B", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"BMR1A","target":"BMPR2","value":1},
+{ "source":"BMR1B","target":"BMR1A","value":1},
+{ "source":"ACVR1","target":"BMR1A","value":1},
+{ "source":"TGFR2","target":"BMR1A","value":1},
+{ "source":"CDK8","target":"BMR1A","value":1},
+{ "source":"MP2K1","target":"BMR1A","value":1},
+{ "source":"AVR2A","target":"BMR1A","value":1},
+{ "source":"AVR2B","target":"BMR1A","value":1}] 
+ }

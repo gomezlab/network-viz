@@ -1,0 +1,9 @@
+{ 
+ "nodes": [
+{"id":"RIPK4", "group": 1, "dark": 0},
+{"id":"KPCB", "group": 2, "dark": 0},
+{"id":"KPCD", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"RIPK4","target":"KPCB","value":1},
+{ "source":"RIPK4","target":"KPCD","value":1}] 
+ }

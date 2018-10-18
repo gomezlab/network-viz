@@ -1,0 +1,9 @@
+{ 
+ "nodes": [
+{"id":"NDK7", "group": 1, "dark": 0},
+{"id":"M4K4", "group": 2, "dark": 0},
+{"id":"LATS2", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"NDK7","target":"M4K4","value":1},
+{ "source":"LATS2","target":"NDK7","value":1}] 
+ }

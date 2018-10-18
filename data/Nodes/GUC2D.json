@@ -1,0 +1,7 @@
+{ 
+ "nodes": [
+{"id":"GUC2D", "group": 1, "dark": 0},
+{"id":"FYN", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"GUC2D","target":"FYN","value":1}] 
+ }

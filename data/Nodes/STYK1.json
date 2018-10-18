@@ -1,0 +1,7 @@
+{ 
+ "nodes": [
+{"id":"STYK1", "group": 1, "dark": 0},
+{"id":"GSK3B", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"STYK1","target":"GSK3B","value":1}] 
+ }

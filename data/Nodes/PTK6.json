@@ -1,0 +1,21 @@
+{ 
+ "nodes": [
+{"id":"PTK6", "group": 1, "dark": 0},
+{"id":"ERBB3", "group": 2, "dark": 0},
+{"id":"EGFR", "group": 2, "dark": 0},
+{"id":"ERBB2", "group": 2, "dark": 0},
+{"id":"FGFR1", "group": 2, "dark": 0},
+{"id":"KIT", "group": 2, "dark": 0},
+{"id":"MET", "group": 2, "dark": 0},
+{"id":"AKT1", "group": 2, "dark": 0},
+{"id":"SRMS", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"PTK6","target":"ERBB3","value":1},
+{ "source":"PTK6","target":"EGFR","value":1},
+{ "source":"ERBB2","target":"PTK6","value":1},
+{ "source":"FGFR1","target":"PTK6","value":1},
+{ "source":"KIT","target":"PTK6","value":1},
+{ "source":"PTK6","target":"MET","value":1},
+{ "source":"AKT1","target":"PTK6","value":1},
+{ "source":"SRMS","target":"PTK6","value":1}] 
+ }

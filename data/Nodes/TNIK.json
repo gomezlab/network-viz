@@ -1,0 +1,11 @@
+{ 
+ "nodes": [
+{"id":"TNIK", "group": 1, "dark": 0},
+{"id":"MK01", "group": 2, "dark": 0},
+{"id":"IKKB", "group": 2, "dark": 0},
+{"id":"M3K7", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"TNIK","target":"MK01","value":1},
+{ "source":"TNIK","target":"IKKB","value":1},
+{ "source":"M3K7","target":"TNIK","value":1}] 
+ }

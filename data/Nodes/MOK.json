@@ -1,0 +1,9 @@
+{ 
+ "nodes": [
+{"id":"MOK", "group": 1, "dark": 0},
+{"id":"MK06", "group": 2, "dark": 0},
+{"id":"INSR", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"MK06","target":"MOK","value":1},
+{ "source":"MOK","target":"INSR","value":1}] 
+ }

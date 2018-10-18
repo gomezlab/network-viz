@@ -1,0 +1,15 @@
+{ 
+ "nodes": [
+{"id":"NDKB", "group": 1, "dark": 0},
+{"id":"NDK3", "group": 2, "dark": 0},
+{"id":"KAD2", "group": 2, "dark": 0},
+{"id":"NDKA", "group": 2, "dark": 0},
+{"id":"NDKM", "group": 2, "dark": 0},
+{"id":"CDK20", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"NDK3","target":"NDKB","value":1},
+{ "source":"NDKB","target":"KAD2","value":1},
+{ "source":"NDKB","target":"NDKA","value":1},
+{ "source":"NDKM","target":"NDKB","value":1},
+{ "source":"CDK20","target":"NDKB","value":1}] 
+ }

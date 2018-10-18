@@ -1,0 +1,11 @@
+{ 
+ "nodes": [
+{"id":"MAST2", "group": 1, "dark": 0},
+{"id":"STK36", "group": 2, "dark": 0},
+{"id":"TITIN", "group": 2, "dark": 0},
+{"id":"LATS1", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"MAST2","target":"STK36","value":1},
+{ "source":"TITIN","target":"MAST2","value":1},
+{ "source":"LATS1","target":"MAST2","value":1}] 
+ }

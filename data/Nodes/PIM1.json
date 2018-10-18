@@ -1,0 +1,17 @@
+{ 
+ "nodes": [
+{"id":"PIM1", "group": 1, "dark": 0},
+{"id":"EPHA3", "group": 2, "dark": 0},
+{"id":"BMX", "group": 2, "dark": 0},
+{"id":"MARK3", "group": 2, "dark": 0},
+{"id":"FLT3", "group": 2, "dark": 0},
+{"id":"EGFR", "group": 2, "dark": 0},
+{"id":"M3K5", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"PIM1","target":"EPHA3","value":1},
+{ "source":"BMX","target":"PIM1","value":1},
+{ "source":"PIM1","target":"MARK3","value":1},
+{ "source":"FLT3","target":"PIM1","value":1},
+{ "source":"EGFR","target":"PIM1","value":1},
+{ "source":"PIM1","target":"M3K5","value":1}] 
+ }

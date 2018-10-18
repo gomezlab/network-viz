@@ -1,0 +1,7 @@
+{ 
+ "nodes": [
+{"id":"INSRR", "group": 1, "dark": 0},
+{"id":"INSR", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"INSRR","target":"INSR","value":1}] 
+ }

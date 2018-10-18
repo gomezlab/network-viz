@@ -1,0 +1,11 @@
+{ 
+ "nodes": [
+{"id":"TIF1A", "group": 1, "dark": 0},
+{"id":"TIF1B", "group": 2, "dark": 0},
+{"id":"CDK12", "group": 2, "dark": 0},
+{"id":"FGFR1", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"TIF1A","target":"TIF1B","value":1},
+{ "source":"CDK12","target":"TIF1A","value":1},
+{ "source":"TIF1A","target":"FGFR1","value":1}] 
+ }

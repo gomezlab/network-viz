@@ -1,0 +1,17 @@
+{ 
+ "nodes": [
+{"id":"GRK5", "group": 1, "dark": 0},
+{"id":"STK38", "group": 2, "dark": 0},
+{"id":"SRPK1", "group": 2, "dark": 0},
+{"id":"PRKDC", "group": 2, "dark": 0},
+{"id":"M4K4", "group": 2, "dark": 0},
+{"id":"PI42A", "group": 2, "dark": 0},
+{"id":"AKT2", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"GRK5","target":"STK38","value":1},
+{ "source":"GRK5","target":"SRPK1","value":1},
+{ "source":"GRK5","target":"PRKDC","value":1},
+{ "source":"GRK5","target":"M4K4","value":1},
+{ "source":"GRK5","target":"PI42A","value":1},
+{ "source":"GRK5","target":"AKT2","value":1}] 
+ }

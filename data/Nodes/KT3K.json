@@ -1,0 +1,7 @@
+{ 
+ "nodes": [
+{"id":"KT3K", "group": 1, "dark": 0},
+{"id":"EGFR", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"EGFR","target":"KT3K","value":1}] 
+ }

@@ -1,0 +1,11 @@
+{ 
+ "nodes": [
+{"id":"HIPK4", "group": 1, "dark": 0},
+{"id":"K6PP", "group": 2, "dark": 0},
+{"id":"ARAF", "group": 2, "dark": 0},
+{"id":"RAF1", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"HIPK4","target":"K6PP","value":1},
+{ "source":"HIPK4","target":"ARAF","value":1},
+{ "source":"HIPK4","target":"RAF1","value":1}] 
+ }

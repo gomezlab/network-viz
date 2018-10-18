@@ -1,0 +1,33 @@
+{ 
+ "nodes": [
+{"id":"BUB1", "group": 1, "dark": 0},
+{"id":"PLK1", "group": 2, "dark": 0},
+{"id":"BUB1B", "group": 2, "dark": 0},
+{"id":"CDK1", "group": 2, "dark": 0},
+{"id":"KS6A1", "group": 2, "dark": 0},
+{"id":"KS6A2", "group": 2, "dark": 0},
+{"id":"KS6A3", "group": 2, "dark": 0},
+{"id":"KS6A6", "group": 2, "dark": 0},
+{"id":"TAOK1", "group": 2, "dark": 0},
+{"id":"AKT1", "group": 2, "dark": 0},
+{"id":"CDK8", "group": 2, "dark": 0},
+{"id":"MP2K1", "group": 2, "dark": 0},
+{"id":"MAPK3", "group": 2, "dark": 0},
+{"id":"AURKB", "group": 2, "dark": 0},
+{"id":"ATM", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"PLK1","target":"BUB1","value":1},
+{ "source":"BUB1","target":"BUB1B","value":1},
+{ "source":"CDK1","target":"BUB1","value":1},
+{ "source":"BUB1","target":"KS6A1","value":1},
+{ "source":"BUB1","target":"KS6A2","value":1},
+{ "source":"BUB1","target":"KS6A3","value":1},
+{ "source":"BUB1","target":"KS6A6","value":1},
+{ "source":"BUB1","target":"TAOK1","value":1},
+{ "source":"AKT1","target":"BUB1","value":1},
+{ "source":"BUB1","target":"CDK8","value":1},
+{ "source":"MP2K1","target":"BUB1","value":1},
+{ "source":"BUB1","target":"MAPK3","value":1},
+{ "source":"BUB1","target":"AURKB","value":1},
+{ "source":"ATM","target":"BUB1","value":1}] 
+ }

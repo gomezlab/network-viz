@@ -1,0 +1,11 @@
+{ 
+ "nodes": [
+{"id":"STK40", "group": 1, "dark": 0},
+{"id":"LRRK2", "group": 2, "dark": 0},
+{"id":"TRIB3", "group": 2, "dark": 0},
+{"id":"TRIB1", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"LRRK2","target":"STK40","value":1},
+{ "source":"TRIB3","target":"STK40","value":1},
+{ "source":"TRIB1","target":"STK40","value":1}] 
+ }

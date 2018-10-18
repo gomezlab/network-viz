@@ -1,0 +1,7 @@
+{ 
+ "nodes": [
+{"id":"M3KL4", "group": 1, "dark": 0},
+{"id":"M3K10", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"M3KL4","target":"M3K10","value":1}] 
+ }

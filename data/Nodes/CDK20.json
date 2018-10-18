@@ -1,0 +1,21 @@
+{ 
+ "nodes": [
+{"id":"CDK20", "group": 1, "dark": 0},
+{"id":"MAK", "group": 2, "dark": 0},
+{"id":"ICK", "group": 2, "dark": 0},
+{"id":"CDK2", "group": 2, "dark": 0},
+{"id":"NDKB", "group": 2, "dark": 0},
+{"id":"CDK12", "group": 2, "dark": 0},
+{"id":"RAF1", "group": 2, "dark": 0},
+{"id":"CDK5", "group": 2, "dark": 0},
+{"id":"CDK7", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"CDK20","target":"MAK","value":1},
+{ "source":"CDK20","target":"ICK","value":1},
+{ "source":"CDK20","target":"CDK2","value":1},
+{ "source":"CDK20","target":"NDKB","value":1},
+{ "source":"CDK20","target":"CDK12","value":1},
+{ "source":"CDK20","target":"RAF1","value":1},
+{ "source":"CDK5","target":"CDK20","value":1},
+{ "source":"CDK7","target":"CDK20","value":1}] 
+ }

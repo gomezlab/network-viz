@@ -1,0 +1,23 @@
+{ 
+ "nodes": [
+{"id":"EPHB1", "group": 1, "dark": 0},
+{"id":"EPHB6", "group": 2, "dark": 0},
+{"id":"PGFRB", "group": 2, "dark": 0},
+{"id":"KPCG", "group": 2, "dark": 0},
+{"id":"FYN", "group": 2, "dark": 0},
+{"id":"MP2K1", "group": 2, "dark": 0},
+{"id":"SRC", "group": 2, "dark": 0},
+{"id":"M4K4", "group": 2, "dark": 0},
+{"id":"FGR", "group": 2, "dark": 0},
+{"id":"HCK", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"EPHB6","target":"EPHB1","value":1},
+{ "source":"EPHB1","target":"PGFRB","value":1},
+{ "source":"KPCG","target":"EPHB1","value":1},
+{ "source":"EPHB1","target":"FYN","value":1},
+{ "source":"EPHB1","target":"MP2K1","value":1},
+{ "source":"EPHB1","target":"SRC","value":1},
+{ "source":"EPHB1","target":"M4K4","value":1},
+{ "source":"EPHB1","target":"FGR","value":1},
+{ "source":"EPHB1","target":"HCK","value":1}] 
+ }

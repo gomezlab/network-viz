@@ -1,0 +1,15 @@
+{ 
+ "nodes": [
+{"id":"KC1G2", "group": 1, "dark": 0},
+{"id":"MK14", "group": 2, "dark": 0},
+{"id":"KC1G1", "group": 2, "dark": 0},
+{"id":"LRRK2", "group": 2, "dark": 0},
+{"id":"GSK3B", "group": 2, "dark": 0},
+{"id":"EPHA4", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"MK14","target":"KC1G2","value":1},
+{ "source":"KC1G1","target":"KC1G2","value":1},
+{ "source":"KC1G2","target":"LRRK2","value":1},
+{ "source":"KC1G2","target":"GSK3B","value":1},
+{ "source":"EPHA4","target":"KC1G2","value":1}] 
+ }

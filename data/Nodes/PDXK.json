@@ -1,0 +1,7 @@
+{ 
+ "nodes": [
+{"id":"PDXK", "group": 1, "dark": 0},
+{"id":"IKKE", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"IKKE","target":"PDXK","value":1}] 
+ }

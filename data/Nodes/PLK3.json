@@ -1,0 +1,17 @@
+{ 
+ "nodes": [
+{"id":"PLK3", "group": 1, "dark": 0},
+{"id":"CHK2", "group": 2, "dark": 0},
+{"id":"MP2K1", "group": 2, "dark": 0},
+{"id":"MK01", "group": 2, "dark": 0},
+{"id":"VRK1", "group": 2, "dark": 0},
+{"id":"BUB1B", "group": 2, "dark": 0},
+{"id":"STK6", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"PLK3","target":"CHK2","value":1},
+{ "source":"PLK3","target":"MP2K1","value":1},
+{ "source":"PLK3","target":"MK01","value":1},
+{ "source":"VRK1","target":"PLK3","value":1},
+{ "source":"PLK3","target":"BUB1B","value":1},
+{ "source":"PLK3","target":"STK6","value":1}] 
+ }

@@ -1,0 +1,17 @@
+{ 
+ "nodes": [
+{"id":"WNK2", "group": 1, "dark": 0},
+{"id":"ABL1", "group": 2, "dark": 0},
+{"id":"FYN", "group": 2, "dark": 0},
+{"id":"WNK1", "group": 2, "dark": 0},
+{"id":"SGK1", "group": 2, "dark": 0},
+{"id":"KPYM", "group": 2, "dark": 0},
+{"id":"STK39", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"WNK2","target":"ABL1","value":1},
+{ "source":"WNK2","target":"FYN","value":1},
+{ "source":"WNK2","target":"WNK1","value":1},
+{ "source":"WNK2","target":"SGK1","value":1},
+{ "source":"KPYM","target":"WNK2","value":1},
+{ "source":"WNK2","target":"STK39","value":1}] 
+ }

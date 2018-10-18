@@ -1,0 +1,17 @@
+{ 
+ "nodes": [
+{"id":"KSR2", "group": 1, "dark": 0},
+{"id":"MP2K1", "group": 2, "dark": 0},
+{"id":"MK01", "group": 2, "dark": 0},
+{"id":"MK03", "group": 2, "dark": 0},
+{"id":"RAF1", "group": 2, "dark": 0},
+{"id":"M3K8", "group": 2, "dark": 0},
+{"id":"BRAF", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"KSR2","target":"MP2K1","value":1},
+{ "source":"KSR2","target":"MK01","value":1},
+{ "source":"KSR2","target":"MK03","value":1},
+{ "source":"KSR2","target":"RAF1","value":1},
+{ "source":"M3K8","target":"KSR2","value":1},
+{ "source":"KSR2","target":"BRAF","value":1}] 
+ }

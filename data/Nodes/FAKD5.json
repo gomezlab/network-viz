@@ -1,0 +1,11 @@
+{ 
+ "nodes": [
+{"id":"FAKD5", "group": 1, "dark": 0},
+{"id":"IRAK2", "group": 2, "dark": 0},
+{"id":"MK04", "group": 2, "dark": 0},
+{"id":"ILK", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"IRAK2","target":"FAKD5","value":1},
+{ "source":"MK04","target":"FAKD5","value":1},
+{ "source":"ILK","target":"FAKD5","value":1}] 
+ }

@@ -1,0 +1,9 @@
+{ 
+ "nodes": [
+{"id":"NDKM", "group": 1, "dark": 0},
+{"id":"NDKA", "group": 2, "dark": 0},
+{"id":"NDKB", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"NDKA","target":"NDKM","value":1},
+{ "source":"NDKM","target":"NDKB","value":1}] 
+ }

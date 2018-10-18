@@ -1,0 +1,21 @@
+{ 
+ "nodes": [
+{"id":"LIMK2", "group": 1, "dark": 0},
+{"id":"LIMK1", "group": 2, "dark": 0},
+{"id":"ROCK1", "group": 2, "dark": 0},
+{"id":"MRCKA", "group": 2, "dark": 0},
+{"id":"HIPK3", "group": 2, "dark": 0},
+{"id":"CDK4", "group": 2, "dark": 0},
+{"id":"KPCD", "group": 2, "dark": 0},
+{"id":"STK6", "group": 2, "dark": 0},
+{"id":"ROCK2", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"LIMK2","target":"LIMK1","value":1},
+{ "source":"ROCK1","target":"LIMK2","value":1},
+{ "source":"MRCKA","target":"LIMK2","value":1},
+{ "source":"HIPK3","target":"LIMK2","value":1},
+{ "source":"LIMK2","target":"CDK4","value":1},
+{ "source":"KPCD","target":"LIMK2","value":1},
+{ "source":"STK6","target":"LIMK2","value":1},
+{ "source":"ROCK2","target":"LIMK2","value":1}] 
+ }

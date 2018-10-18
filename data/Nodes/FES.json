@@ -1,0 +1,31 @@
+{ 
+ "nodes": [
+{"id":"FES", "group": 1, "dark": 0},
+{"id":"JAK2", "group": 2, "dark": 0},
+{"id":"JAK1", "group": 2, "dark": 0},
+{"id":"JAK3", "group": 2, "dark": 0},
+{"id":"EGFR", "group": 2, "dark": 0},
+{"id":"TIF1B", "group": 2, "dark": 0},
+{"id":"KIT", "group": 2, "dark": 0},
+{"id":"MET", "group": 2, "dark": 0},
+{"id":"FYN", "group": 2, "dark": 0},
+{"id":"VGFR2", "group": 2, "dark": 0},
+{"id":"PAK3", "group": 2, "dark": 0},
+{"id":"LIMK1", "group": 2, "dark": 0},
+{"id":"PAK1", "group": 2, "dark": 0},
+{"id":"PAK2", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"JAK2","target":"FES","value":1},
+{ "source":"JAK1","target":"FES","value":1},
+{ "source":"FES","target":"JAK3","value":1},
+{ "source":"FES","target":"EGFR","value":1},
+{ "source":"FES","target":"TIF1B","value":1},
+{ "source":"KIT","target":"FES","value":1},
+{ "source":"MET","target":"FES","value":1},
+{ "source":"FES","target":"FYN","value":1},
+{ "source":"FES","target":"VGFR2","value":1},
+{ "source":"FES","target":"PAK3","value":1},
+{ "source":"FES","target":"LIMK1","value":1},
+{ "source":"FES","target":"PAK1","value":1},
+{ "source":"FES","target":"PAK2","value":1}] 
+ }

@@ -1,0 +1,7 @@
+{ 
+ "nodes": [
+{"id":"GUC2C", "group": 1, "dark": 0},
+{"id":"SRC", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"GUC2C","target":"SRC","value":1}] 
+ }

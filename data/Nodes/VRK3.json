@@ -1,0 +1,11 @@
+{ 
+ "nodes": [
+{"id":"VRK3", "group": 1, "dark": 0},
+{"id":"VRK1", "group": 2, "dark": 0},
+{"id":"PLK1", "group": 2, "dark": 0},
+{"id":"MK01", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"VRK1","target":"VRK3","value":1},
+{ "source":"PLK1","target":"VRK3","value":1},
+{ "source":"VRK3","target":"MK01","value":1}] 
+ }

@@ -1,0 +1,7 @@
+{ 
+ "nodes": [
+{"id":"BMP2K", "group": 1, "dark": 0},
+{"id":"ABL1", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"ABL1","target":"BMP2K","value":1}] 
+ }

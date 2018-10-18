@@ -1,0 +1,31 @@
+{ 
+ "nodes": [
+{"id":"LATS2", "group": 1, "dark": 0},
+{"id":"STK3", "group": 2, "dark": 0},
+{"id":"LATS1", "group": 2, "dark": 0},
+{"id":"AURKB", "group": 2, "dark": 0},
+{"id":"CHK2", "group": 2, "dark": 0},
+{"id":"DYR1A", "group": 2, "dark": 0},
+{"id":"CHK1", "group": 2, "dark": 0},
+{"id":"CDK2", "group": 2, "dark": 0},
+{"id":"STK4", "group": 2, "dark": 0},
+{"id":"PAK4", "group": 2, "dark": 0},
+{"id":"ABL1", "group": 2, "dark": 0},
+{"id":"NDK7", "group": 2, "dark": 0},
+{"id":"TBK1", "group": 2, "dark": 0},
+{"id":"STK6", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"LATS2","target":"STK3","value":1},
+{ "source":"LATS2","target":"LATS1","value":1},
+{ "source":"LATS2","target":"AURKB","value":1},
+{ "source":"CHK2","target":"LATS2","value":1},
+{ "source":"LATS2","target":"DYR1A","value":1},
+{ "source":"CHK1","target":"LATS2","value":1},
+{ "source":"CDK2","target":"LATS2","value":1},
+{ "source":"LATS2","target":"STK4","value":1},
+{ "source":"LATS2","target":"PAK4","value":1},
+{ "source":"ABL1","target":"LATS2","value":1},
+{ "source":"LATS2","target":"NDK7","value":1},
+{ "source":"LATS2","target":"TBK1","value":1},
+{ "source":"STK6","target":"LATS2","value":1}] 
+ }

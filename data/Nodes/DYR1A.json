@@ -1,0 +1,17 @@
+{ 
+ "nodes": [
+{"id":"DYR1A", "group": 1, "dark": 0},
+{"id":"HIPK2", "group": 2, "dark": 0},
+{"id":"M3K1", "group": 2, "dark": 0},
+{"id":"LATS2", "group": 2, "dark": 0},
+{"id":"KAPCB", "group": 2, "dark": 0},
+{"id":"KAPCA", "group": 2, "dark": 0},
+{"id":"M3K5", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"DYR1A","target":"HIPK2","value":1},
+{ "source":"M3K1","target":"DYR1A","value":1},
+{ "source":"LATS2","target":"DYR1A","value":1},
+{ "source":"KAPCB","target":"DYR1A","value":1},
+{ "source":"KAPCA","target":"DYR1A","value":1},
+{ "source":"DYR1A","target":"M3K5","value":1}] 
+ }

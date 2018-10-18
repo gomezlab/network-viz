@@ -1,0 +1,25 @@
+{ 
+ "nodes": [
+{"id":"KPCD2", "group": 1, "dark": 0},
+{"id":"KC1A", "group": 2, "dark": 0},
+{"id":"KC1D", "group": 2, "dark": 0},
+{"id":"KC1E", "group": 2, "dark": 0},
+{"id":"CSKP", "group": 2, "dark": 0},
+{"id":"MYLK", "group": 2, "dark": 0},
+{"id":"KALRN", "group": 2, "dark": 0},
+{"id":"KPCL", "group": 2, "dark": 0},
+{"id":"MARK2", "group": 2, "dark": 0},
+{"id":"KPCE", "group": 2, "dark": 0},
+{"id":"KPCA", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"KC1A","target":"KPCD2","value":1},
+{ "source":"KC1D","target":"KPCD2","value":1},
+{ "source":"KC1E","target":"KPCD2","value":1},
+{ "source":"KPCD2","target":"CSKP","value":1},
+{ "source":"MYLK","target":"KPCD2","value":1},
+{ "source":"KALRN","target":"KPCD2","value":1},
+{ "source":"KPCL","target":"KPCD2","value":1},
+{ "source":"KPCD2","target":"MARK2","value":1},
+{ "source":"KPCE","target":"KPCD2","value":1},
+{ "source":"KPCA","target":"KPCD2","value":1}] 
+ }

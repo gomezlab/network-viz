@@ -1,0 +1,21 @@
+{ 
+ "nodes": [
+{"id":"UFO", "group": 1, "dark": 0},
+{"id":"LCK", "group": 2, "dark": 0},
+{"id":"SRC", "group": 2, "dark": 0},
+{"id":"ACK1", "group": 2, "dark": 0},
+{"id":"TYRO3", "group": 2, "dark": 0},
+{"id":"EGFR", "group": 2, "dark": 0},
+{"id":"VGFR2", "group": 2, "dark": 0},
+{"id":"CSK", "group": 2, "dark": 0},
+{"id":"MERTK", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"LCK","target":"UFO","value":1},
+{ "source":"SRC","target":"UFO","value":1},
+{ "source":"ACK1","target":"UFO","value":1},
+{ "source":"UFO","target":"TYRO3","value":1},
+{ "source":"UFO","target":"EGFR","value":1},
+{ "source":"UFO","target":"VGFR2","value":1},
+{ "source":"UFO","target":"CSK","value":1},
+{ "source":"UFO","target":"MERTK","value":1}] 
+ }

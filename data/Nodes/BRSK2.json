@@ -1,0 +1,9 @@
+{ 
+ "nodes": [
+{"id":"BRSK2", "group": 1, "dark": 0},
+{"id":"WEE1", "group": 2, "dark": 0},
+{"id":"AAPK1", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"BRSK2","target":"WEE1","value":1},
+{ "source":"AAPK1","target":"BRSK2","value":1}] 
+ }

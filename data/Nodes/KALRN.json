@@ -1,0 +1,27 @@
+{ 
+ "nodes": [
+{"id":"KALRN", "group": 1, "dark": 0},
+{"id":"EPHB2", "group": 2, "dark": 0},
+{"id":"KPCD2", "group": 2, "dark": 0},
+{"id":"TRIO", "group": 2, "dark": 0},
+{"id":"OBSCN", "group": 2, "dark": 0},
+{"id":"ROCK2", "group": 2, "dark": 0},
+{"id":"EPHB3", "group": 2, "dark": 0},
+{"id":"EPHB4", "group": 2, "dark": 0},
+{"id":"PAK1", "group": 2, "dark": 0},
+{"id":"ROCK1", "group": 2, "dark": 0},
+{"id":"MK06", "group": 2, "dark": 0},
+{"id":"MAPK5", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"EPHB2","target":"KALRN","value":1},
+{ "source":"KALRN","target":"KPCD2","value":1},
+{ "source":"KALRN","target":"TRIO","value":1},
+{ "source":"KALRN","target":"OBSCN","value":1},
+{ "source":"ROCK2","target":"KALRN","value":1},
+{ "source":"EPHB3","target":"KALRN","value":1},
+{ "source":"EPHB4","target":"KALRN","value":1},
+{ "source":"PAK1","target":"KALRN","value":1},
+{ "source":"ROCK1","target":"KALRN","value":1},
+{ "source":"MK06","target":"KALRN","value":1},
+{ "source":"MAPK5","target":"KALRN","value":1}] 
+ }

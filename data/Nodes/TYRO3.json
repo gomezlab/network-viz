@@ -1,0 +1,15 @@
+{ 
+ "nodes": [
+{"id":"TYRO3", "group": 1, "dark": 0},
+{"id":"YES", "group": 2, "dark": 0},
+{"id":"SRC", "group": 2, "dark": 0},
+{"id":"FYN", "group": 2, "dark": 0},
+{"id":"KPYM", "group": 2, "dark": 0},
+{"id":"UFO", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"TYRO3","target":"YES","value":1},
+{ "source":"TYRO3","target":"SRC","value":1},
+{ "source":"TYRO3","target":"FYN","value":1},
+{ "source":"KPYM","target":"TYRO3","value":1},
+{ "source":"UFO","target":"TYRO3","value":1}] 
+ }

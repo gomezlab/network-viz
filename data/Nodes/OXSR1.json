@@ -1,0 +1,31 @@
+{ 
+ "nodes": [
+{"id":"OXSR1", "group": 1, "dark": 0},
+{"id":"PAK1", "group": 2, "dark": 0},
+{"id":"BMR1B", "group": 2, "dark": 0},
+{"id":"TGFR1", "group": 2, "dark": 0},
+{"id":"WNK4", "group": 2, "dark": 0},
+{"id":"WNK1", "group": 2, "dark": 0},
+{"id":"TGFR2", "group": 2, "dark": 0},
+{"id":"CDK9", "group": 2, "dark": 0},
+{"id":"PRKDC", "group": 2, "dark": 0},
+{"id":"KAPCB", "group": 2, "dark": 0},
+{"id":"EGFR", "group": 2, "dark": 0},
+{"id":"ROS1", "group": 2, "dark": 0},
+{"id":"KC1E", "group": 2, "dark": 0},
+{"id":"ACVR1", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"OXSR1","target":"PAK1","value":1},
+{ "source":"BMR1B","target":"OXSR1","value":1},
+{ "source":"OXSR1","target":"TGFR1","value":1},
+{ "source":"OXSR1","target":"WNK4","value":1},
+{ "source":"OXSR1","target":"WNK1","value":1},
+{ "source":"OXSR1","target":"TGFR2","value":1},
+{ "source":"CDK9","target":"OXSR1","value":1},
+{ "source":"OXSR1","target":"PRKDC","value":1},
+{ "source":"OXSR1","target":"KAPCB","value":1},
+{ "source":"EGFR","target":"OXSR1","value":1},
+{ "source":"ROS1","target":"OXSR1","value":1},
+{ "source":"KC1E","target":"OXSR1","value":1},
+{ "source":"ACVR1","target":"OXSR1","value":1}] 
+ }

@@ -1,0 +1,29 @@
+{ 
+ "nodes": [
+{"id":"MST4", "group": 1, "dark": 0},
+{"id":"RAF1", "group": 2, "dark": 0},
+{"id":"STK25", "group": 2, "dark": 0},
+{"id":"STK24", "group": 2, "dark": 0},
+{"id":"SRPK1", "group": 2, "dark": 0},
+{"id":"TAOK1", "group": 2, "dark": 0},
+{"id":"CSK21", "group": 2, "dark": 0},
+{"id":"KPCD", "group": 2, "dark": 0},
+{"id":"PHKG2", "group": 2, "dark": 0},
+{"id":"TAOK3", "group": 2, "dark": 0},
+{"id":"KCC1A", "group": 2, "dark": 0},
+{"id":"EGFR", "group": 2, "dark": 0},
+{"id":"MOS", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"MST4","target":"RAF1","value":1},
+{ "source":"STK25","target":"MST4","value":1},
+{ "source":"STK24","target":"MST4","value":1},
+{ "source":"MST4","target":"SRPK1","value":1},
+{ "source":"MST4","target":"TAOK1","value":1},
+{ "source":"MST4","target":"CSK21","value":1},
+{ "source":"MST4","target":"KPCD","value":1},
+{ "source":"PHKG2","target":"MST4","value":1},
+{ "source":"MST4","target":"TAOK3","value":1},
+{ "source":"KCC1A","target":"MST4","value":1},
+{ "source":"EGFR","target":"MST4","value":1},
+{ "source":"MOS","target":"MST4","value":1}] 
+ }

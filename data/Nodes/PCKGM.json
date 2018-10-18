@@ -1,0 +1,9 @@
+{ 
+ "nodes": [
+{"id":"PCKGM", "group": 1, "dark": 0},
+{"id":"AAPK2", "group": 2, "dark": 0},
+{"id":"AAPK1", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"PCKGM","target":"AAPK2","value":1},
+{ "source":"PCKGM","target":"AAPK1","value":1}] 
+ }

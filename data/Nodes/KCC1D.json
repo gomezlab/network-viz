@@ -1,0 +1,19 @@
+{ 
+ "nodes": [
+{"id":"KCC1D", "group": 1, "dark": 0},
+{"id":"KKCC1", "group": 2, "dark": 0},
+{"id":"LRRK2", "group": 2, "dark": 0},
+{"id":"KCC1A", "group": 2, "dark": 0},
+{"id":"KCC1G", "group": 2, "dark": 0},
+{"id":"AAPK2", "group": 2, "dark": 0},
+{"id":"KAPCA", "group": 2, "dark": 0},
+{"id":"KAPCG", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"KKCC1","target":"KCC1D","value":1},
+{ "source":"LRRK2","target":"KCC1D","value":1},
+{ "source":"KCC1D","target":"KCC1A","value":1},
+{ "source":"KCC1D","target":"KCC1G","value":1},
+{ "source":"KCC1D","target":"AAPK2","value":1},
+{ "source":"KAPCA","target":"KCC1D","value":1},
+{ "source":"KAPCG","target":"KCC1D","value":1}] 
+ }

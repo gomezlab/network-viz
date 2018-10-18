@@ -1,0 +1,13 @@
+{ 
+ "nodes": [
+{"id":"GAK", "group": 1, "dark": 0},
+{"id":"CDK5", "group": 2, "dark": 0},
+{"id":"ALK", "group": 2, "dark": 0},
+{"id":"LRRK1", "group": 2, "dark": 0},
+{"id":"LRRK2", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"GAK","target":"CDK5","value":1},
+{ "source":"ALK","target":"GAK","value":1},
+{ "source":"LRRK1","target":"GAK","value":1},
+{ "source":"GAK","target":"LRRK2","value":1}] 
+ }

@@ -1,0 +1,13 @@
+{ 
+ "nodes": [
+{"id":"SIK2", "group": 1, "dark": 0},
+{"id":"AAPK1", "group": 2, "dark": 0},
+{"id":"ILK", "group": 2, "dark": 0},
+{"id":"TIF1B", "group": 2, "dark": 0},
+{"id":"KC1A", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"AAPK1","target":"SIK2","value":1},
+{ "source":"ILK","target":"SIK2","value":1},
+{ "source":"SIK2","target":"TIF1B","value":1},
+{ "source":"SIK2","target":"KC1A","value":1}] 
+ }

@@ -1,0 +1,11 @@
+{ 
+ "nodes": [
+{"id":"CLK1", "group": 1, "dark": 0},
+{"id":"SRPK2", "group": 2, "dark": 0},
+{"id":"SRPK1", "group": 2, "dark": 0},
+{"id":"ABL1", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"SRPK2","target":"CLK1","value":1},
+{ "source":"CLK1","target":"SRPK1","value":1},
+{ "source":"CLK1","target":"ABL1","value":1}] 
+ }

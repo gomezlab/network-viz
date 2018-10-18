@@ -1,0 +1,17 @@
+{ 
+ "nodes": [
+{"id":"MLTK", "group": 1, "dark": 0},
+{"id":"TGFR1", "group": 2, "dark": 0},
+{"id":"MP2K6", "group": 2, "dark": 0},
+{"id":"MP2K4", "group": 2, "dark": 0},
+{"id":"MP2K7", "group": 2, "dark": 0},
+{"id":"PKN1", "group": 2, "dark": 0},
+{"id":"KS6A5", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"MLTK","target":"TGFR1","value":1},
+{ "source":"MLTK","target":"MP2K6","value":1},
+{ "source":"MLTK","target":"MP2K4","value":1},
+{ "source":"MLTK","target":"MP2K7","value":1},
+{ "source":"MLTK","target":"PKN1","value":1},
+{ "source":"KS6A5","target":"MLTK","value":1}] 
+ }

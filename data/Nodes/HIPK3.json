@@ -1,0 +1,7 @@
+{ 
+ "nodes": [
+{"id":"HIPK3", "group": 1, "dark": 0},
+{"id":"LIMK2", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"HIPK3","target":"LIMK2","value":1}] 
+ }

@@ -1,0 +1,19 @@
+{ 
+ "nodes": [
+{"id":"PRPK", "group": 1, "dark": 0},
+{"id":"TIF1B", "group": 2, "dark": 0},
+{"id":"EF2K", "group": 2, "dark": 0},
+{"id":"KAPCB", "group": 2, "dark": 0},
+{"id":"PRKDC", "group": 2, "dark": 0},
+{"id":"KPCE", "group": 2, "dark": 0},
+{"id":"AKT1", "group": 2, "dark": 0},
+{"id":"KS6B2", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"PRPK","target":"TIF1B","value":1},
+{ "source":"EF2K","target":"PRPK","value":1},
+{ "source":"PRPK","target":"KAPCB","value":1},
+{ "source":"PRPK","target":"PRKDC","value":1},
+{ "source":"PRPK","target":"KPCE","value":1},
+{ "source":"AKT1","target":"PRPK","value":1},
+{ "source":"KS6B2","target":"PRPK","value":1}] 
+ }

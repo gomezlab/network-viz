@@ -1,0 +1,11 @@
+{ 
+ "nodes": [
+{"id":"SNRK", "group": 1, "dark": 0},
+{"id":"STK11", "group": 2, "dark": 0},
+{"id":"STK16", "group": 2, "dark": 0},
+{"id":"AAPK1", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"STK11","target":"SNRK","value":1},
+{ "source":"SNRK","target":"STK16","value":1},
+{ "source":"AAPK1","target":"SNRK","value":1}] 
+ }

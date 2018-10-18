@@ -1,0 +1,7 @@
+{ 
+ "nodes": [
+{"id":"TIE1", "group": 1, "dark": 0},
+{"id":"TIE2", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"TIE1","target":"TIE2","value":1}] 
+ }

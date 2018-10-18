@@ -1,0 +1,23 @@
+{ 
+ "nodes": [
+{"id":"ROS1", "group": 1, "dark": 0},
+{"id":"EGFR", "group": 2, "dark": 0},
+{"id":"KPYM", "group": 2, "dark": 0},
+{"id":"ABL1", "group": 2, "dark": 0},
+{"id":"OXSR1", "group": 2, "dark": 0},
+{"id":"IGF1R", "group": 2, "dark": 0},
+{"id":"FGFR2", "group": 2, "dark": 0},
+{"id":"MK01", "group": 2, "dark": 0},
+{"id":"FRK", "group": 2, "dark": 0},
+{"id":"MP2K1", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"ROS1","target":"EGFR","value":1},
+{ "source":"KPYM","target":"ROS1","value":1},
+{ "source":"ABL1","target":"ROS1","value":1},
+{ "source":"ROS1","target":"OXSR1","value":1},
+{ "source":"IGF1R","target":"ROS1","value":1},
+{ "source":"ROS1","target":"FGFR2","value":1},
+{ "source":"ROS1","target":"MK01","value":1},
+{ "source":"ROS1","target":"FRK","value":1},
+{ "source":"ROS1","target":"MP2K1","value":1}] 
+ }

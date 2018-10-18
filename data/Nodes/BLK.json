@@ -1,0 +1,19 @@
+{ 
+ "nodes": [
+{"id":"BLK", "group": 1, "dark": 0},
+{"id":"EGFR", "group": 2, "dark": 0},
+{"id":"ERBB2", "group": 2, "dark": 0},
+{"id":"KPYM", "group": 2, "dark": 0},
+{"id":"KIT", "group": 2, "dark": 0},
+{"id":"MET", "group": 2, "dark": 0},
+{"id":"KCC1A", "group": 2, "dark": 0},
+{"id":"KSYK", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"BLK","target":"EGFR","value":1},
+{ "source":"BLK","target":"ERBB2","value":1},
+{ "source":"BLK","target":"KPYM","value":1},
+{ "source":"BLK","target":"KIT","value":1},
+{ "source":"BLK","target":"MET","value":1},
+{ "source":"KCC1A","target":"BLK","value":1},
+{ "source":"KSYK","target":"BLK","value":1}] 
+ }

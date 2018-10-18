@@ -1,0 +1,11 @@
+{ 
+ "nodes": [
+{"id":"ROR1", "group": 1, "dark": 0},
+{"id":"SRC", "group": 2, "dark": 0},
+{"id":"EGFR", "group": 2, "dark": 0},
+{"id":"ERBB3", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"ROR1","target":"SRC","value":1},
+{ "source":"EGFR","target":"ROR1","value":1},
+{ "source":"ERBB3","target":"ROR1","value":1}] 
+ }

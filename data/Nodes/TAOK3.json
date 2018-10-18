@@ -1,0 +1,17 @@
+{ 
+ "nodes": [
+{"id":"TAOK3", "group": 1, "dark": 0},
+{"id":"ERN1", "group": 2, "dark": 0},
+{"id":"ATM", "group": 2, "dark": 0},
+{"id":"LRRK2", "group": 2, "dark": 0},
+{"id":"MST4", "group": 2, "dark": 0},
+{"id":"MP2K6", "group": 2, "dark": 0},
+{"id":"TAOK1", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"TAOK3","target":"ERN1","value":1},
+{ "source":"ATM","target":"TAOK3","value":1},
+{ "source":"LRRK2","target":"TAOK3","value":1},
+{ "source":"MST4","target":"TAOK3","value":1},
+{ "source":"MP2K6","target":"TAOK3","value":1},
+{ "source":"TAOK1","target":"TAOK3","value":1}] 
+ }

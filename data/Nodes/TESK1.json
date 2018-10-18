@@ -1,0 +1,9 @@
+{ 
+ "nodes": [
+{"id":"TESK1", "group": 1, "dark": 0},
+{"id":"K6PL", "group": 2, "dark": 0},
+{"id":"ARAF", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"K6PL","target":"TESK1","value":1},
+{ "source":"ARAF","target":"TESK1","value":1}] 
+ }

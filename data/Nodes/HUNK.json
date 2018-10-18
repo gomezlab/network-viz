@@ -1,0 +1,7 @@
+{ 
+ "nodes": [
+{"id":"HUNK", "group": 1, "dark": 0},
+{"id":"LIMK1", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"LIMK1","target":"HUNK","value":1}] 
+ }

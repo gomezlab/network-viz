@@ -1,0 +1,13 @@
+{ 
+ "nodes": [
+{"id":"CDK12", "group": 1, "dark": 0},
+{"id":"CDK20", "group": 2, "dark": 0},
+{"id":"CDK9", "group": 2, "dark": 0},
+{"id":"CDK13", "group": 2, "dark": 0},
+{"id":"TIF1A", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"CDK20","target":"CDK12","value":1},
+{ "source":"CDK9","target":"CDK12","value":1},
+{ "source":"CDK13","target":"CDK12","value":1},
+{ "source":"CDK12","target":"TIF1A","value":1}] 
+ }

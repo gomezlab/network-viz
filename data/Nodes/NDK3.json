@@ -1,0 +1,11 @@
+{ 
+ "nodes": [
+{"id":"NDK3", "group": 1, "dark": 0},
+{"id":"NDKA", "group": 2, "dark": 0},
+{"id":"NDKB", "group": 2, "dark": 0},
+{"id":"KS6B2", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"NDK3","target":"NDKA","value":1},
+{ "source":"NDK3","target":"NDKB","value":1},
+{ "source":"KS6B2","target":"NDK3","value":1}] 
+ }

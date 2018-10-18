@@ -1,0 +1,23 @@
+{ 
+ "nodes": [
+{"id":"BUB1B", "group": 1, "dark": 0},
+{"id":"M3K4", "group": 2, "dark": 0},
+{"id":"BUB1", "group": 2, "dark": 0},
+{"id":"PLK1", "group": 2, "dark": 0},
+{"id":"PLK3", "group": 2, "dark": 0},
+{"id":"AURKB", "group": 2, "dark": 0},
+{"id":"CHK1", "group": 2, "dark": 0},
+{"id":"TAOK1", "group": 2, "dark": 0},
+{"id":"NEK2", "group": 2, "dark": 0},
+{"id":"TTK", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"BUB1B","target":"M3K4","value":1},
+{ "source":"BUB1","target":"BUB1B","value":1},
+{ "source":"BUB1B","target":"PLK1","value":1},
+{ "source":"PLK3","target":"BUB1B","value":1},
+{ "source":"AURKB","target":"BUB1B","value":1},
+{ "source":"BUB1B","target":"CHK1","value":1},
+{ "source":"BUB1B","target":"TAOK1","value":1},
+{ "source":"BUB1B","target":"NEK2","value":1},
+{ "source":"TTK","target":"BUB1B","value":1}] 
+ }

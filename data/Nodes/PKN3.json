@@ -1,0 +1,9 @@
+{ 
+ "nodes": [
+{"id":"PKN3", "group": 1, "dark": 0},
+{"id":"TGFR2", "group": 2, "dark": 0},
+{"id":"EGFR", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"TGFR2","target":"PKN3","value":1},
+{ "source":"PKN3","target":"EGFR","value":1}] 
+ }

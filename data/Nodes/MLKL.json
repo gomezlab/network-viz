@@ -1,0 +1,11 @@
+{ 
+ "nodes": [
+{"id":"MLKL", "group": 1, "dark": 0},
+{"id":"CDK1", "group": 2, "dark": 0},
+{"id":"RIPK3", "group": 2, "dark": 0},
+{"id":"RIPK1", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"MLKL","target":"CDK1","value":1},
+{ "source":"MLKL","target":"RIPK3","value":1},
+{ "source":"RIPK1","target":"MLKL","value":1}] 
+ }

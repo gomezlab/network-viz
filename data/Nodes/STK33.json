@@ -1,0 +1,9 @@
+{ 
+ "nodes": [
+{"id":"STK33", "group": 1, "dark": 0},
+{"id":"LRRK2", "group": 2, "dark": 0},
+{"id":"KPYM", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"STK33","target":"LRRK2","value":1},
+{ "source":"KPYM","target":"STK33","value":1}] 
+ }

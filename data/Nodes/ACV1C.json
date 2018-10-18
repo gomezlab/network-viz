@@ -1,0 +1,13 @@
+{ 
+ "nodes": [
+{"id":"ACV1C", "group": 1, "dark": 0},
+{"id":"ACVR1", "group": 2, "dark": 0},
+{"id":"AVR2A", "group": 2, "dark": 0},
+{"id":"ACV1B", "group": 2, "dark": 0},
+{"id":"AVR2B", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"ACVR1","target":"ACV1C","value":1},
+{ "source":"AVR2A","target":"ACV1C","value":1},
+{ "source":"ACV1B","target":"ACV1C","value":1},
+{ "source":"AVR2B","target":"ACV1C","value":1}] 
+ }

@@ -1,0 +1,11 @@
+{ 
+ "nodes": [
+{"id":"PK3C3", "group": 1, "dark": 0},
+{"id":"PI3R4", "group": 2, "dark": 0},
+{"id":"TIF1B", "group": 2, "dark": 0},
+{"id":"P4K2B", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"PI3R4","target":"PK3C3","value":1},
+{ "source":"PK3C3","target":"TIF1B","value":1},
+{ "source":"P4K2B","target":"PK3C3","value":1}] 
+ }

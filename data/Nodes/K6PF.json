@@ -1,0 +1,13 @@
+{ 
+ "nodes": [
+{"id":"K6PF", "group": 1, "dark": 0},
+{"id":"K6PL", "group": 2, "dark": 0},
+{"id":"MK03", "group": 2, "dark": 0},
+{"id":"K6PP", "group": 2, "dark": 0},
+{"id":"EGFR", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"K6PF","target":"K6PL","value":1},
+{ "source":"K6PF","target":"MK03","value":1},
+{ "source":"K6PF","target":"K6PP","value":1},
+{ "source":"EGFR","target":"K6PF","value":1}] 
+ }

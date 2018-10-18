@@ -1,0 +1,25 @@
+{ 
+ "nodes": [
+{"id":"FRK", "group": 1, "dark": 0},
+{"id":"FYN", "group": 2, "dark": 0},
+{"id":"CSK", "group": 2, "dark": 0},
+{"id":"EGFR", "group": 2, "dark": 0},
+{"id":"MP2K7", "group": 2, "dark": 0},
+{"id":"ROS1", "group": 2, "dark": 0},
+{"id":"BRAF", "group": 2, "dark": 0},
+{"id":"MK01", "group": 2, "dark": 0},
+{"id":"TEC", "group": 2, "dark": 0},
+{"id":"MK08", "group": 2, "dark": 0},
+{"id":"MP2K1", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"FYN","target":"FRK","value":1},
+{ "source":"CSK","target":"FRK","value":1},
+{ "source":"EGFR","target":"FRK","value":1},
+{ "source":"MP2K7","target":"FRK","value":1},
+{ "source":"ROS1","target":"FRK","value":1},
+{ "source":"BRAF","target":"FRK","value":1},
+{ "source":"MK01","target":"FRK","value":1},
+{ "source":"TEC","target":"FRK","value":1},
+{ "source":"MK08","target":"FRK","value":1},
+{ "source":"MP2K1","target":"FRK","value":1}] 
+ }

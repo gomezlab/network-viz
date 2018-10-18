@@ -1,0 +1,19 @@
+{ 
+ "nodes": [
+{"id":"PI51B", "group": 1, "dark": 0},
+{"id":"BTK", "group": 2, "dark": 0},
+{"id":"PK3CG", "group": 2, "dark": 0},
+{"id":"P3C2A", "group": 2, "dark": 0},
+{"id":"PI42A", "group": 2, "dark": 0},
+{"id":"P4K2B", "group": 2, "dark": 0},
+{"id":"PI42C", "group": 2, "dark": 0},
+{"id":"PI4KA", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"BTK","target":"PI51B","value":1},
+{ "source":"PK3CG","target":"PI51B","value":1},
+{ "source":"P3C2A","target":"PI51B","value":1},
+{ "source":"PI42A","target":"PI51B","value":1},
+{ "source":"P4K2B","target":"PI51B","value":1},
+{ "source":"PI42C","target":"PI51B","value":1},
+{ "source":"PI4KA","target":"PI51B","value":1}] 
+ }

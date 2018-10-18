@@ -1,0 +1,13 @@
+{ 
+ "nodes": [
+{"id":"FLT3", "group": 1, "dark": 0},
+{"id":"PIM1", "group": 2, "dark": 0},
+{"id":"KSYK", "group": 2, "dark": 0},
+{"id":"IKKB", "group": 2, "dark": 0},
+{"id":"PDK1", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"FLT3","target":"PIM1","value":1},
+{ "source":"FLT3","target":"KSYK","value":1},
+{ "source":"FLT3","target":"IKKB","value":1},
+{ "source":"FLT3","target":"PDK1","value":1}] 
+ }

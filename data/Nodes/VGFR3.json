@@ -1,0 +1,23 @@
+{ 
+ "nodes": [
+{"id":"VGFR3", "group": 1, "dark": 0},
+{"id":"VGFR2", "group": 2, "dark": 0},
+{"id":"FAK1", "group": 2, "dark": 0},
+{"id":"KPYM", "group": 2, "dark": 0},
+{"id":"LRRK1", "group": 2, "dark": 0},
+{"id":"PK3CA", "group": 2, "dark": 0},
+{"id":"PK3CD", "group": 2, "dark": 0},
+{"id":"PK3CB", "group": 2, "dark": 0},
+{"id":"PK3CG", "group": 2, "dark": 0},
+{"id":"MP2K4", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"VGFR3","target":"VGFR2","value":1},
+{ "source":"VGFR3","target":"FAK1","value":1},
+{ "source":"KPYM","target":"VGFR3","value":1},
+{ "source":"LRRK1","target":"VGFR3","value":1},
+{ "source":"VGFR3","target":"PK3CA","value":1},
+{ "source":"VGFR3","target":"PK3CD","value":1},
+{ "source":"VGFR3","target":"PK3CB","value":1},
+{ "source":"VGFR3","target":"PK3CG","value":1},
+{ "source":"VGFR3","target":"MP2K4","value":1}] 
+ }

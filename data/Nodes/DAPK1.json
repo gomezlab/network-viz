@@ -1,0 +1,23 @@
+{ 
+ "nodes": [
+{"id":"DAPK1", "group": 1, "dark": 0},
+{"id":"MK03", "group": 2, "dark": 0},
+{"id":"MK01", "group": 2, "dark": 0},
+{"id":"RIPK3", "group": 2, "dark": 0},
+{"id":"LRRK2", "group": 2, "dark": 0},
+{"id":"LRRK1", "group": 2, "dark": 0},
+{"id":"KPYM", "group": 2, "dark": 0},
+{"id":"KKCC2", "group": 2, "dark": 0},
+{"id":"KS6A1", "group": 2, "dark": 0},
+{"id":"KS6A3", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"MK03","target":"DAPK1","value":1},
+{ "source":"DAPK1","target":"MK01","value":1},
+{ "source":"RIPK3","target":"DAPK1","value":1},
+{ "source":"LRRK2","target":"DAPK1","value":1},
+{ "source":"LRRK1","target":"DAPK1","value":1},
+{ "source":"KPYM","target":"DAPK1","value":1},
+{ "source":"DAPK1","target":"KKCC2","value":1},
+{ "source":"KS6A1","target":"DAPK1","value":1},
+{ "source":"KS6A3","target":"DAPK1","value":1}] 
+ }

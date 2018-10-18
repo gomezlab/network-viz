@@ -1,0 +1,15 @@
+{ 
+ "nodes": [
+{"id":"CDK17", "group": 1, "dark": 0},
+{"id":"KAPCG", "group": 2, "dark": 0},
+{"id":"EPHA2", "group": 2, "dark": 0},
+{"id":"CDK16", "group": 2, "dark": 0},
+{"id":"CDK14", "group": 2, "dark": 0},
+{"id":"CDK1", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"KAPCG","target":"CDK17","value":1},
+{ "source":"EPHA2","target":"CDK17","value":1},
+{ "source":"CDK16","target":"CDK17","value":1},
+{ "source":"CDK14","target":"CDK17","value":1},
+{ "source":"CDK1","target":"CDK17","value":1}] 
+ }

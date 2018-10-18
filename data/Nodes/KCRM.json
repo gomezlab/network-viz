@@ -1,0 +1,7 @@
+{ 
+ "nodes": [
+{"id":"KCRM", "group": 1, "dark": 0},
+{"id":"BRD4", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"BRD4","target":"KCRM","value":1}] 
+ }

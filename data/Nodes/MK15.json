@@ -1,0 +1,15 @@
+{ 
+ "nodes": [
+{"id":"MK15", "group": 1, "dark": 0},
+{"id":"SRC", "group": 2, "dark": 0},
+{"id":"CSK", "group": 2, "dark": 0},
+{"id":"MK12", "group": 2, "dark": 0},
+{"id":"CDK2", "group": 2, "dark": 0},
+{"id":"MK03", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"MK15","target":"SRC","value":1},
+{ "source":"CSK","target":"MK15","value":1},
+{ "source":"MK15","target":"MK12","value":1},
+{ "source":"CDK2","target":"MK15","value":1},
+{ "source":"MK15","target":"MK03","value":1}] 
+ }

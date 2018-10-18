@@ -1,0 +1,27 @@
+{ 
+ "nodes": [
+{"id":"NEK9", "group": 1, "dark": 0},
+{"id":"NEK6", "group": 2, "dark": 0},
+{"id":"NEK7", "group": 2, "dark": 0},
+{"id":"CHK1", "group": 2, "dark": 0},
+{"id":"PLK1", "group": 2, "dark": 0},
+{"id":"TITIN", "group": 2, "dark": 0},
+{"id":"PAK1", "group": 2, "dark": 0},
+{"id":"PAK4", "group": 2, "dark": 0},
+{"id":"CDK4", "group": 2, "dark": 0},
+{"id":"MK01", "group": 2, "dark": 0},
+{"id":"VGFR2", "group": 2, "dark": 0},
+{"id":"TIF1B", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"NEK9","target":"NEK6","value":1},
+{ "source":"NEK9","target":"NEK7","value":1},
+{ "source":"NEK9","target":"CHK1","value":1},
+{ "source":"PLK1","target":"NEK9","value":1},
+{ "source":"TITIN","target":"NEK9","value":1},
+{ "source":"PAK1","target":"NEK9","value":1},
+{ "source":"NEK9","target":"PAK4","value":1},
+{ "source":"NEK9","target":"CDK4","value":1},
+{ "source":"NEK9","target":"MK01","value":1},
+{ "source":"NEK9","target":"VGFR2","value":1},
+{ "source":"NEK9","target":"TIF1B","value":1}] 
+ }

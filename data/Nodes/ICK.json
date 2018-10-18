@@ -1,0 +1,17 @@
+{ 
+ "nodes": [
+{"id":"ICK", "group": 1, "dark": 0},
+{"id":"CDC7", "group": 2, "dark": 0},
+{"id":"CDK20", "group": 2, "dark": 0},
+{"id":"MK01", "group": 2, "dark": 0},
+{"id":"CDK14", "group": 2, "dark": 0},
+{"id":"CDK1", "group": 2, "dark": 0},
+{"id":"CDK16", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"ICK","target":"CDC7","value":1},
+{ "source":"CDK20","target":"ICK","value":1},
+{ "source":"ICK","target":"MK01","value":1},
+{ "source":"CDK14","target":"ICK","value":1},
+{ "source":"CDK1","target":"ICK","value":1},
+{ "source":"CDK16","target":"ICK","value":1}] 
+ }

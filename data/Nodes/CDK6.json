@@ -1,0 +1,27 @@
+{ 
+ "nodes": [
+{"id":"CDK6", "group": 1, "dark": 0},
+{"id":"TGFR1", "group": 2, "dark": 0},
+{"id":"CDK2", "group": 2, "dark": 0},
+{"id":"CDK7", "group": 2, "dark": 0},
+{"id":"CDK4", "group": 2, "dark": 0},
+{"id":"CDKL3", "group": 2, "dark": 0},
+{"id":"E2AK1", "group": 2, "dark": 0},
+{"id":"PLK4", "group": 2, "dark": 0},
+{"id":"CSK", "group": 2, "dark": 0},
+{"id":"MK08", "group": 2, "dark": 0},
+{"id":"CDK5", "group": 2, "dark": 0},
+{"id":"STK3", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"CDK6","target":"TGFR1","value":1},
+{ "source":"CDK2","target":"CDK6","value":1},
+{ "source":"CDK7","target":"CDK6","value":1},
+{ "source":"CDK4","target":"CDK6","value":1},
+{ "source":"CDK6","target":"CDKL3","value":1},
+{ "source":"CDK6","target":"E2AK1","value":1},
+{ "source":"CDK6","target":"PLK4","value":1},
+{ "source":"CDK6","target":"CSK","value":1},
+{ "source":"MK08","target":"CDK6","value":1},
+{ "source":"CDK6","target":"CDK5","value":1},
+{ "source":"CDK6","target":"STK3","value":1}] 
+ }

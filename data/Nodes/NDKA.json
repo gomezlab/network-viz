@@ -1,0 +1,17 @@
+{ 
+ "nodes": [
+{"id":"NDKA", "group": 1, "dark": 0},
+{"id":"NDKM", "group": 2, "dark": 0},
+{"id":"KSR1", "group": 2, "dark": 0},
+{"id":"NDK3", "group": 2, "dark": 0},
+{"id":"NDKB", "group": 2, "dark": 0},
+{"id":"MK14", "group": 2, "dark": 0},
+{"id":"AAPK1", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"NDKA","target":"NDKM","value":1},
+{ "source":"NDKA","target":"KSR1","value":1},
+{ "source":"NDK3","target":"NDKA","value":1},
+{ "source":"NDKB","target":"NDKA","value":1},
+{ "source":"MK14","target":"NDKA","value":1},
+{ "source":"NDKA","target":"AAPK1","value":1}] 
+ }

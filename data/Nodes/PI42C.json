@@ -1,0 +1,17 @@
+{ 
+ "nodes": [
+{"id":"PI42C", "group": 1, "dark": 0},
+{"id":"BTK", "group": 2, "dark": 0},
+{"id":"CSK22", "group": 2, "dark": 0},
+{"id":"ROCK2", "group": 2, "dark": 0},
+{"id":"PI51B", "group": 2, "dark": 0},
+{"id":"ROCK1", "group": 2, "dark": 0},
+{"id":"PI51A", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"BTK","target":"PI42C","value":1},
+{ "source":"CSK22","target":"PI42C","value":1},
+{ "source":"PI42C","target":"ROCK2","value":1},
+{ "source":"PI42C","target":"PI51B","value":1},
+{ "source":"PI42C","target":"ROCK1","value":1},
+{ "source":"PI42C","target":"PI51A","value":1}] 
+ }

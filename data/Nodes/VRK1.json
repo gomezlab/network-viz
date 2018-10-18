@@ -1,0 +1,15 @@
+{ 
+ "nodes": [
+{"id":"VRK1", "group": 1, "dark": 0},
+{"id":"PLK3", "group": 2, "dark": 0},
+{"id":"VRK3", "group": 2, "dark": 0},
+{"id":"SRPK2", "group": 2, "dark": 0},
+{"id":"E2AK2", "group": 2, "dark": 0},
+{"id":"EGFR", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"VRK1","target":"PLK3","value":1},
+{ "source":"VRK1","target":"VRK3","value":1},
+{ "source":"SRPK2","target":"VRK1","value":1},
+{ "source":"VRK1","target":"E2AK2","value":1},
+{ "source":"EGFR","target":"VRK1","value":1}] 
+ }

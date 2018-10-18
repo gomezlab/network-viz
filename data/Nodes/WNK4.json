@@ -1,0 +1,15 @@
+{ 
+ "nodes": [
+{"id":"WNK4", "group": 1, "dark": 0},
+{"id":"STK39", "group": 2, "dark": 0},
+{"id":"OXSR1", "group": 2, "dark": 0},
+{"id":"SGK1", "group": 2, "dark": 0},
+{"id":"AKT1", "group": 2, "dark": 0},
+{"id":"SRC", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"STK39","target":"WNK4","value":1},
+{ "source":"OXSR1","target":"WNK4","value":1},
+{ "source":"SGK1","target":"WNK4","value":1},
+{ "source":"AKT1","target":"WNK4","value":1},
+{ "source":"SRC","target":"WNK4","value":1}] 
+ }

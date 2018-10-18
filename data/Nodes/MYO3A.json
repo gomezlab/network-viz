@@ -1,0 +1,7 @@
+{ 
+ "nodes": [
+{"id":"MYO3A", "group": 1, "dark": 0},
+{"id":"TGFR1", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"MYO3A","target":"TGFR1","value":1}] 
+ }

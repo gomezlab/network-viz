@@ -1,0 +1,19 @@
+{ 
+ "nodes": [
+{"id":"RIPK3", "group": 1, "dark": 0},
+{"id":"RIPK1", "group": 2, "dark": 0},
+{"id":"PRKDC", "group": 2, "dark": 0},
+{"id":"DAPK1", "group": 2, "dark": 0},
+{"id":"MLKL", "group": 2, "dark": 0},
+{"id":"EPHA4", "group": 2, "dark": 0},
+{"id":"IKKB", "group": 2, "dark": 0},
+{"id":"IKKA", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"RIPK3","target":"RIPK1","value":1},
+{ "source":"RIPK3","target":"PRKDC","value":1},
+{ "source":"RIPK3","target":"DAPK1","value":1},
+{ "source":"MLKL","target":"RIPK3","value":1},
+{ "source":"RIPK3","target":"EPHA4","value":1},
+{ "source":"IKKB","target":"RIPK3","value":1},
+{ "source":"IKKA","target":"RIPK3","value":1}] 
+ }

@@ -1,0 +1,21 @@
+{ 
+ "nodes": [
+{"id":"NTRK3", "group": 1, "dark": 0},
+{"id":"MK01", "group": 2, "dark": 0},
+{"id":"IRAK1", "group": 2, "dark": 0},
+{"id":"MK03", "group": 2, "dark": 0},
+{"id":"IRAK3", "group": 2, "dark": 0},
+{"id":"KPYM", "group": 2, "dark": 0},
+{"id":"ACK1", "group": 2, "dark": 0},
+{"id":"ABL1", "group": 2, "dark": 0},
+{"id":"CDK5", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"NTRK3","target":"MK01","value":1},
+{ "source":"IRAK1","target":"NTRK3","value":1},
+{ "source":"MK03","target":"NTRK3","value":1},
+{ "source":"IRAK3","target":"NTRK3","value":1},
+{ "source":"NTRK3","target":"KPYM","value":1},
+{ "source":"ACK1","target":"NTRK3","value":1},
+{ "source":"ABL1","target":"NTRK3","value":1},
+{ "source":"CDK5","target":"NTRK3","value":1}] 
+ }

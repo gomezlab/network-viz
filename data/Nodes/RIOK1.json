@@ -1,0 +1,17 @@
+{ 
+ "nodes": [
+{"id":"RIOK1", "group": 1, "dark": 0},
+{"id":"EGFR", "group": 2, "dark": 0},
+{"id":"MK03", "group": 2, "dark": 0},
+{"id":"KC1D", "group": 2, "dark": 0},
+{"id":"CSK21", "group": 2, "dark": 0},
+{"id":"CDK5", "group": 2, "dark": 0},
+{"id":"RIOK2", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"EGFR","target":"RIOK1","value":1},
+{ "source":"RIOK1","target":"MK03","value":1},
+{ "source":"RIOK1","target":"KC1D","value":1},
+{ "source":"RIOK1","target":"CSK21","value":1},
+{ "source":"RIOK1","target":"CDK5","value":1},
+{ "source":"RIOK2","target":"RIOK1","value":1}] 
+ }

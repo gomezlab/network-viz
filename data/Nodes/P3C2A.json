@@ -1,0 +1,19 @@
+{ 
+ "nodes": [
+{"id":"P3C2A", "group": 1, "dark": 0},
+{"id":"EGFR", "group": 2, "dark": 0},
+{"id":"ERBB2", "group": 2, "dark": 0},
+{"id":"PGK1", "group": 2, "dark": 0},
+{"id":"P4K2B", "group": 2, "dark": 0},
+{"id":"PI4KA", "group": 2, "dark": 0},
+{"id":"PI51B", "group": 2, "dark": 0},
+{"id":"PI51A", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"EGFR","target":"P3C2A","value":1},
+{ "source":"ERBB2","target":"P3C2A","value":1},
+{ "source":"P3C2A","target":"PGK1","value":1},
+{ "source":"P4K2B","target":"P3C2A","value":1},
+{ "source":"PI4KA","target":"P3C2A","value":1},
+{ "source":"P3C2A","target":"PI51B","value":1},
+{ "source":"P3C2A","target":"PI51A","value":1}] 
+ }

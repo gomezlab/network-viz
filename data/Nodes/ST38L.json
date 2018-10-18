@@ -1,0 +1,17 @@
+{ 
+ "nodes": [
+{"id":"ST38L", "group": 1, "dark": 0},
+{"id":"STK24", "group": 2, "dark": 0},
+{"id":"KAPCB", "group": 2, "dark": 0},
+{"id":"CDK2", "group": 2, "dark": 0},
+{"id":"PAK1", "group": 2, "dark": 0},
+{"id":"MK14", "group": 2, "dark": 0},
+{"id":"NUAK1", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"ST38L","target":"STK24","value":1},
+{ "source":"ST38L","target":"KAPCB","value":1},
+{ "source":"ST38L","target":"CDK2","value":1},
+{ "source":"ST38L","target":"PAK1","value":1},
+{ "source":"ST38L","target":"MK14","value":1},
+{ "source":"ST38L","target":"NUAK1","value":1}] 
+ }

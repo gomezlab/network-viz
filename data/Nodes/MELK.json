@@ -1,0 +1,11 @@
+{ 
+ "nodes": [
+{"id":"MELK", "group": 1, "dark": 0},
+{"id":"STK16", "group": 2, "dark": 0},
+{"id":"KKCC2", "group": 2, "dark": 0},
+{"id":"STK11", "group": 2, "dark": 0}],
+"links": [ 
+{ "source":"MELK","target":"STK16","value":1},
+{ "source":"KKCC2","target":"MELK","value":1},
+{ "source":"STK11","target":"MELK","value":1}] 
+ }
