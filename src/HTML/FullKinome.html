@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+    .links line {
+        stroke: #999;
+        stroke-opacity: 0.6;
+    }
+
+    .nodes circle {
+/*        stroke: #000;*/
+        stroke-width: 1.5px;
+    }
+    .nodes rect{
+        stroke: #000;
+        stroke-width: 1.5px;
+    }
+</style>
+<h2>Kinome Network Prototype</h2>
+<p>Select one of the options below to see specific subsections of the full kinome network</p>
+<p>Selecting Understudied shows all understudied nodes and their first degree neighbors. Selecting Pak1 shows Pak1 and all its first degree and second degree neighbors
+</p>
+
+<svg width="1500" height="1500"></svg>
+
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script>
+    var svg = d3.select("svg"),
+        width = svg.attr("width"),
+        height = svg.attr("height");
+    //	svg.attr("width",width);
+    //	svg.attr("height",height);
+
+    var radius = 100;
+    var color = d3.scaleOrdinal(d3.schemeCategory10);
+   
+    var simulation = d3.forceSimulation()
+        .force("link", d3.forceLink().id(function(d) {
+            return d.id;
+        }).strength(function(d){return 0.08*d.value}))
+
+        .force("charge", d3.forceManyBody())
+        .force("center", d3.forceCenter(width / 2, height / 2));
+
+    d3.json("js/FG.json", function(error, graph) {
+        if (error) throw error;
+
+        var link = svg.append("g")
+            .attr("class", "links")
+            .selectAll("line")
+            .data(graph.links)
+            .enter().append("line")
+            .attr("stroke", function(d) {
+                return color(d.group)
+            })
+            .attr("stroke-width", 1);
+
+
+        var node = svg.append("g")
+            .attr("class", "nodes")
+            .selectAll("g")
+            .data(graph.nodes)
+            .enter().append("g")
+            .attr("class",function(d){
+                if (d.dark ==1){
+                    return "rect";
+                }
+                return "circle";
+            });
+        
+        //console.log(node.attr("class"));
+            
+            d3.selectAll(".circle").append("circle")
+            .attr("r", 10)
+            .attr("position", "relative")
+            .attr("fill", function(d) {
+                return color(d.group)
+//                if (d.group == 1) {
+//                    return "green";
+//                }
+//                return "LightGrey";
+            })
+            .call(d3.drag()
+                .on("start", dragstarted)
+                .on("drag", dragged)
+                .on("end", dragended));
+        d3.selectAll(".rect").append("rect")
+        .attr("width",20)
+        .attr("height",20)
+        .attr("fill", function(d) {
+                return color(d.group)
+            })
+            .call(d3.drag()
+                .on("start", dragstarted)
+                .on("drag", dragged)
+                .on("end", dragended));
+
+            
+        var lables = node.append("text")
+             var lables = node.append("text")
+            .text(function(d) {
+                return d.id;
+            })
+    
+
+        $(".nodes text").attr("opacity", "0");
+
+        var nodeCircles = $(".nodes *")
+        for (var i = 0; i < nodeCircles.length; i++) {
+            nodeCircles[i].addEventListener('mouseenter', mouseOn)
+            nodeCircles[i].addEventListener('mouseleave', mouseOff)
+            nodeCircles[i].addEventListener('click', googleSearch)
+        }
+        
+
+        function mouseOff() {
+
+            var textLabel = $(this).parent().children('text');
+
+            textLabel.attr("opacity", "0");
+            $(this).attr("r", 10);
+            $(this).attr("width",20);
+            $(this).attr("height",20)
+
+
+        }
+
+        function mouseOn() {
+            var textLabel = $(this).parent().children('text');
+            var parent = this.parentElement
+            textLabel.attr("opacity", "1");
+            textLabel.attr("font-weight", "bold")
+            $(this).attr("r", 15);
+            $(this).attr("width",30);
+            $(this).attr("height",30);
+           
+            parent.parentElement.appendChild(parent);
+        }
+
+        function googleSearch() {
+            var kinase = $(this).parent().text();
+            location.href = 'http://www.google.com/search?q=' + kinase + '+gene';
+        }
+
+        simulation
+            .nodes(graph.nodes)
+            .on("tick", ticked);
+
+        simulation.force("link")
+            .links(graph.links);
+
+        function ticked() {
+            link
+                .attr("x1", function(d) {
+                    return d.source.x;
+                })
+                .attr("y1", function(d) {
+                    return d.source.y;
+                })
+                .attr("x2", function(d) {
+                    return d.target.x;
+                })
+                .attr("y2", function(d) {
+                    return d.target.y;
+                });
+
+            node
+                .attr("x", function(d) {
+                    return d.x = Math.max(radius, Math.min(width - radius, d.x));
+                })
+                .attr("y", function(d) {
+                    return d.y = Math.max(radius, Math.min(height - radius, d.y));
+                })
+                .attr("transform", function(d) {
+                    return "translate(" + d.x + "," + d.y + ")";
+                });
+        }
+    });
+
+    function dragstarted(d) {
+        if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+        d.fx = d.x;
+        d.fy = d.y;
+    }
+
+    function dragged(d) {
+        d.fx = d3.event.x;
+        d.fy = d3.event.y;
+    }
+
+    function dragended(d) {
+        if (!d3.event.active) simulation.alphaTarget(0);
+        d.fx = null;
+        d.fy = null;
+    }
+</script>
